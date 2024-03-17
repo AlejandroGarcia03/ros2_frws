@@ -1,0 +1,18 @@
+[ 18%] Built target test_xarm_gripper_planner_client_joint
+[ 18%] Built target test_xarm_planner_client_pose
+[ 27%] Built target test_xarm_planner_client_joint
+[ 36%] Built target test_lite_gripper_realmove
+[ 45%] Built target xarm_planner
+[35m[1mConsolidate compiler generated dependencies of target test_xarm_planner_api_pose[0m
+[ 54%] Built target test_xarm_planner_api_joint
+[ 72%] Built target xarm_gripper_planner_node
+[ 72%] Built target xarm_planner_node
+[ 81%] Built target test_dual_xarm_planner_api_joint
+[ 90%] Built target test_xarm_gripper_planner_api_joint
+[ 95%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m
+[01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:75:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+   75 |     [01;31m[Kwhile[m[K (rclcpp::ok())
+      |     [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_xarm_planner_api_pose.dir/build.make:76: CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/test_xarm_planner_api_pose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

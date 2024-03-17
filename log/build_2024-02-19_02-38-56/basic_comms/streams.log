@@ -1,0 +1,41 @@
+[1.326s] Invoking command in '/root/ros2_frws/src/basic_comms': PYTHONPATH=/root/ros2_frws/build/basic_comms/prefix_override:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms build --build-base /root/ros2_frws/build/basic_comms/build install --record /root/ros2_frws/build/basic_comms/install.log --single-version-externally-managed
+[1.576s] running egg_info
+[1.592s] writing ../../build/basic_comms/basic_comms.egg-info/PKG-INFO
+[1.596s] writing dependency_links to ../../build/basic_comms/basic_comms.egg-info/dependency_links.txt
+[1.596s] writing entry points to ../../build/basic_comms/basic_comms.egg-info/entry_points.txt
+[1.596s] writing requirements to ../../build/basic_comms/basic_comms.egg-info/requires.txt
+[1.596s] writing top-level names to ../../build/basic_comms/basic_comms.egg-info/top_level.txt
+[1.639s] reading manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[1.641s] writing manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[1.642s] running build
+[1.642s] running build_py
+[1.642s] copying basic_comms/talker.py -> /root/ros2_frws/build/basic_comms/build/lib/basic_comms
+[1.642s] copying basic_comms/subscriber.py -> /root/ros2_frws/build/basic_comms/build/lib/basic_comms
+[1.643s] running install
+[1.645s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.645s] !!
+[1.645s] 
+[1.645s]         ********************************************************************************
+[1.645s]         Please avoid running ``setup.py`` directly.
+[1.645s]         Instead, use pypa/build, pypa/installer or other
+[1.645s]         standards-based tools.
+[1.646s] 
+[1.646s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.646s]         ********************************************************************************
+[1.646s] 
+[1.646s] !!
+[1.646s]   self.initialize_options()
+[1.656s] running install_lib
+[1.680s] copying /root/ros2_frws/build/basic_comms/build/lib/basic_comms/talker.py -> /root/ros2_frws/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[1.680s] copying /root/ros2_frws/build/basic_comms/build/lib/basic_comms/subscriber.py -> /root/ros2_frws/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[1.680s] byte-compiling /root/ros2_frws/install/basic_comms/lib/python3.10/site-packages/basic_comms/talker.py to talker.cpython-310.pyc
+[1.681s] byte-compiling /root/ros2_frws/install/basic_comms/lib/python3.10/site-packages/basic_comms/subscriber.py to subscriber.cpython-310.pyc
+[1.682s] running install_data
+[1.709s] running install_egg_info
+[1.728s] removing '/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info' (and everything under it)
+[1.729s] Copying ../../build/basic_comms/basic_comms.egg-info to /root/ros2_frws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info
+[1.731s] running install_scripts
+[1.854s] Installing subscriber script to /root/ros2_frws/install/basic_comms/lib/basic_comms
+[1.855s] Installing talker script to /root/ros2_frws/install/basic_comms/lib/basic_comms
+[1.858s] writing list of installed files to '/root/ros2_frws/build/basic_comms/install.log'
+[1.886s] Invoked command in '/root/ros2_frws/src/basic_comms' returned '0': PYTHONPATH=/root/ros2_frws/build/basic_comms/prefix_override:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms build --build-base /root/ros2_frws/build/basic_comms/build install --record /root/ros2_frws/build/basic_comms/install.log --single-version-externally-managed

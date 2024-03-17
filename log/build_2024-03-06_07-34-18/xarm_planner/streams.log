@@ -1,0 +1,26 @@
+[0.073s] Invoking command in '/root/ros2_frws/build/xarm_planner': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_frws/build/xarm_planner -- -j16 -l16
+[0.120s] [ 36%] Built target test_xarm_planner_client_pose
+[0.120s] [ 36%] Built target test_lite_gripper_realmove
+[0.120s] [ 36%] Built target test_xarm_gripper_planner_client_joint
+[0.120s] [ 36%] Built target test_xarm_planner_client_joint
+[0.127s] [ 45%] Built target xarm_planner
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target test_xarm_planner_api_pose[0m
+[0.156s] [ 90%] Built target test_dual_xarm_planner_api_joint
+[0.156s] [ 81%] Built target xarm_gripper_planner_node
+[0.156s] [ 90%] Built target test_xarm_gripper_planner_api_joint
+[0.157s] [ 90%] Built target xarm_planner_node
+[0.157s] [ 90%] Built target test_xarm_planner_api_joint
+[0.170s] [ 95%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m
+[4.304s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.304s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:56:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kposey[m[K’ was not declared in this scope; did you mean ‘[01m[Kposy[m[K’?
+[4.304s]    56 |             [01;31m[Kposey[m[K=
+[4.304s]       |             [01;31m[K^~~~~[m[K
+[4.305s]       |             [32m[Kposy[m[K
+[4.308s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:57:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kposez[m[K’ was not declared in this scope; did you mean ‘[01m[Kposz[m[K’?
+[4.308s]    57 |             [01;31m[Kposez[m[K=
+[4.308s]       |             [01;31m[K^~~~~[m[K
+[4.308s]       |             [32m[Kposz[m[K
+[6.682s] gmake[2]: *** [CMakeFiles/test_xarm_planner_api_pose.dir/build.make:76: CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o] Error 1
+[6.682s] gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/test_xarm_planner_api_pose.dir/all] Error 2
+[6.682s] gmake: *** [Makefile:146: all] Error 2
+[6.685s] Invoked command in '/root/ros2_frws/build/xarm_planner' returned '2': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_frws/build/xarm_planner -- -j16 -l16

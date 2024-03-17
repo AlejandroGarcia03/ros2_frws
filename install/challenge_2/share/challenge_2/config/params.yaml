@@ -1,0 +1,25 @@
+signal_generator:
+  ros__parameters:
+    default: 
+      type_: 0
+      amplitude_: 2.5
+      frequency_: 1.0
+      offset_: 0.0
+      time_: 0.0
+      phase_: 0.0
+
+    square:
+      type_: 1
+      amplitude_: 2.0
+      frequency_: 5.0
+      offset_: -1.0
+      time_: 0.0
+      phase_: 0.0
+
+    sawtooth:
+      type_: 2
+      amplitude_: 1.0
+      frequency_: 10.0
+      offset_: 2.5
+      time_: 0.0
+      phase_: 0.0

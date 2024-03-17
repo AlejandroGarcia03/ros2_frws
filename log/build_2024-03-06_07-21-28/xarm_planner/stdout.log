@@ -1,0 +1,12 @@
+[ 27%] Built target test_xarm_planner_client_joint
+[ 27%] Built target test_xarm_gripper_planner_client_joint
+[ 27%] Built target test_xarm_planner_client_pose
+[ 40%] Built target test_lite_gripper_realmove
+[ 45%] Built target xarm_planner
+[35m[1mConsolidate compiler generated dependencies of target test_xarm_planner_api_pose[0m
+[ 72%] Built target test_dual_xarm_planner_api_joint
+[ 77%] Built target xarm_gripper_planner_node
+[ 77%] Built target test_xarm_gripper_planner_api_joint
+[ 81%] Built target xarm_planner_node
+[ 90%] Built target test_xarm_planner_api_joint
+[ 95%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m

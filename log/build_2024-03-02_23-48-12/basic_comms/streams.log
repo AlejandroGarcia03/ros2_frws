@@ -1,0 +1,35 @@
+[1.938s] Invoking command in '/root/ros2_frws/src/basic_comms': PYTHONPATH=/root/ros2_frws/build/basic_comms/prefix_override:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms build --build-base /root/ros2_frws/build/basic_comms/build install --record /root/ros2_frws/build/basic_comms/install.log --single-version-externally-managed
+[2.161s] running egg_info
+[2.178s] writing ../../build/basic_comms/basic_comms.egg-info/PKG-INFO
+[2.179s] writing dependency_links to ../../build/basic_comms/basic_comms.egg-info/dependency_links.txt
+[2.179s] writing entry points to ../../build/basic_comms/basic_comms.egg-info/entry_points.txt
+[2.179s] writing requirements to ../../build/basic_comms/basic_comms.egg-info/requires.txt
+[2.180s] writing top-level names to ../../build/basic_comms/basic_comms.egg-info/top_level.txt
+[2.215s] reading manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[2.216s] writing manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[2.216s] running build
+[2.217s] running build_py
+[2.217s] running install
+[2.217s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.217s] !!
+[2.217s] 
+[2.217s]         ********************************************************************************
+[2.217s]         Please avoid running ``setup.py`` directly.
+[2.218s]         Instead, use pypa/build, pypa/installer or other
+[2.218s]         standards-based tools.
+[2.218s] 
+[2.218s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.218s]         ********************************************************************************
+[2.218s] 
+[2.218s] !!
+[2.218s]   self.initialize_options()
+[2.224s] running install_lib
+[2.239s] running install_data
+[2.253s] running install_egg_info
+[2.267s] removing '/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info' (and everything under it)
+[2.268s] Copying ../../build/basic_comms/basic_comms.egg-info to /root/ros2_frws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info
+[2.272s] running install_scripts
+[2.453s] Installing subscriber script to /root/ros2_frws/install/basic_comms/lib/basic_comms
+[2.453s] Installing talker script to /root/ros2_frws/install/basic_comms/lib/basic_comms
+[2.454s] writing list of installed files to '/root/ros2_frws/build/basic_comms/install.log'
+[2.546s] Invoked command in '/root/ros2_frws/src/basic_comms' returned '0': PYTHONPATH=/root/ros2_frws/build/basic_comms/prefix_override:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms build --build-base /root/ros2_frws/build/basic_comms/build install --record /root/ros2_frws/build/basic_comms/install.log --single-version-externally-managed

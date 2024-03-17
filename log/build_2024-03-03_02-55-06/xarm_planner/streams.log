@@ -1,0 +1,75 @@
+[0.080s] Invoking command in '/root/ros2_frws/build/xarm_planner': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_frws/build/xarm_planner -- -j16 -l16
+[0.138s] [ 18%] Built target test_xarm_planner_client_joint
+[0.138s] [ 18%] Built target test_xarm_gripper_planner_client_joint
+[0.138s] [ 27%] Built target test_xarm_planner_client_pose
+[0.143s] [ 36%] Built target test_lite_gripper_realmove
+[0.150s] [ 45%] Built target xarm_planner
+[0.186s] [ 54%] Built target test_xarm_planner_api_joint
+[0.187s] [ 68%] Built target xarm_planner_node
+[0.187s] [ 72%] Built target test_dual_xarm_planner_api_joint
+[0.188s] [ 81%] Built target test_xarm_planner_api_pose
+[0.188s] [ 90%] Built target xarm_gripper_planner_node
+[0.188s] [100%] Built target test_xarm_gripper_planner_api_joint
+[0.288s] Invoked command in '/root/ros2_frws/build/xarm_planner' returned '0': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_frws/build/xarm_planner -- -j16 -l16
+[0.385s] Invoking command in '/root/ros2_frws/build/xarm_planner': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ros2_frws/build/xarm_planner
+[0.393s] -- Install configuration: ""
+[0.393s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/include
+[0.393s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/include/xarm_planner
+[0.393s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/include/xarm_planner/xarm_planner.h
+[0.393s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/lib/libxarm_planner.so
+[0.393s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/lib/xarm_planner/xarm_planner_node
+[0.394s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/lib/xarm_planner/xarm_gripper_planner_node
+[0.394s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_joint
+[0.394s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/lib/xarm_planner/test_dual_xarm_planner_api_joint
+[0.394s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_pose
+[0.395s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_api_joint
+[0.395s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_joint
+[0.396s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_pose
+[0.396s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_client_joint
+[0.396s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/lib/xarm_planner/test_lite_gripper_realmove
+[0.397s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch
+[0.397s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_api_joint.launch.py
+[0.397s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_gazebo.launch.py
+[0.397s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_fake.launch.py
+[0.397s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_gazebo.launch.py
+[0.398s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_fake.launch.py
+[0.398s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/test_move_group.launch.py
+[0.398s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/test_dual_xarm_planner_api_joint.launch.py
+[0.398s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_realmove.launch.py
+[0.398s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_joint.launch.py
+[0.398s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_gazebo.launch.py
+[0.398s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_pose.launch.py
+[0.398s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/_dual_robot_planner.launch.py
+[0.398s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_gazebo.launch.py
+[0.398s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_fake.launch.py
+[0.398s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_joint.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_fake.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_realmove.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_realmove.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_gazebo.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/test_lite_gripper_realmove.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_fake.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_pose.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_realmove.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_gazebo.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_fake.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/_robot_planner.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_realmove.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_realmove.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_client_joint.launch.py
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/ament_index/resource_index/package_run_dependencies/xarm_planner
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/ament_index/resource_index/parent_prefix_path/xarm_planner
+[0.399s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.sh
+[0.400s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.dsv
+[0.400s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner/environment/path.sh
+[0.400s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner/environment/path.dsv
+[0.400s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner/local_setup.bash
+[0.400s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner/local_setup.sh
+[0.400s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner/local_setup.zsh
+[0.400s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner/local_setup.dsv
+[0.401s] -- Installing: /root/ros2_frws/install/xarm_planner/share/xarm_planner/package.dsv
+[0.401s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/ament_index/resource_index/packages/xarm_planner
+[0.401s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig.cmake
+[0.401s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig-version.cmake
+[0.401s] -- Up-to-date: /root/ros2_frws/install/xarm_planner/share/xarm_planner/package.xml
+[0.402s] Invoked command in '/root/ros2_frws/build/xarm_planner' returned '0': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ros2_frws/build/xarm_planner

@@ -1,0 +1,3 @@
+[console_scripts]
+reconstructor_node = challenge_2.reconstructor_node:main
+signal_generator = challenge_2.signal_generator:main

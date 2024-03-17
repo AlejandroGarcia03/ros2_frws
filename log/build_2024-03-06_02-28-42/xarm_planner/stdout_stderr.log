@@ -1,0 +1,21 @@
+[ 27%] Built target test_xarm_planner_client_joint
+[ 27%] Built target test_xarm_planner_client_pose
+[ 27%] Built target test_lite_gripper_realmove
+[ 36%] Built target test_xarm_gripper_planner_client_joint
+[ 45%] Built target xarm_planner
+[ 54%] Built target xarm_gripper_planner_node
+[ 63%] Built target test_xarm_gripper_planner_api_joint
+[ 68%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m
+[ 77%] Built target xarm_planner_node
+[ 86%] Built target test_dual_xarm_planner_api_joint
+[ 95%] Built target test_xarm_planner_api_joint
+[01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:74:30:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgeometry_msgs::msg::Pose target_pose4[m[K’
+   74 |     geometry_msgs::msg::Pose [01;31m[Ktarget_pose4[m[K;
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:65:30:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Pose target_pose4[m[K’ previously declared here
+   65 |     geometry_msgs::msg::Pose [01;36m[Ktarget_pose4[m[K;
+      |                              [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_xarm_planner_api_pose.dir/build.make:76: CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/test_xarm_planner_api_pose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,62 @@
+[0.797s] Invoking command in '/root/ros2_frws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_sdk -- -j16 -l16
+[2.756s] [100%] Built target xarm_cxx_sdk
+[2.771s] Invoked command in '/root/ros2_frws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_sdk -- -j16 -l16
+[3.111s] Invoking command in '/root/ros2_frws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/xarm_sdk
+[3.124s] -- Install configuration: "Release"
+[3.124s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/environment/library_path.sh
+[3.124s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/environment/library_path.dsv
+[3.126s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include
+[3.126s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/serial
+[3.127s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/serial/serial.h
+[3.127s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/serial/v8stdint.h
+[3.127s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/serial/impl
+[3.128s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/serial/impl/unix.h
+[3.128s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/serial/impl/win.h
+[3.128s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm
+[3.128s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core
+[3.129s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/instruction
+[3.129s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd.h
+[3.130s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_ser.h
+[3.130s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_tcp.h
+[3.130s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_config.h
+[3.131s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/instruction/servo3_config.h
+[3.131s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/common
+[3.131s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/common/crc16.h
+[3.132s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/common/queue_memcpy.h
+[3.132s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/common/data_type.h
+[3.132s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/report_data.h
+[3.132s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/xarm_config.h
+[3.133s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/debug
+[3.133s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/debug/debug_print.h
+[3.133s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/os
+[3.134s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/os/bak
+[3.134s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/os/bak/thread.h
+[3.134s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/os/network.h
+[3.135s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/connect.h
+[3.135s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/port
+[3.136s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/port/ser.h
+[3.136s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/core/port/socket.h
+[3.136s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/wrapper
+[3.136s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/wrapper/xarm_api.h
+[3.137s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/wrapper/common
+[3.137s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/wrapper/common/utils.h
+[3.138s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/cxx/include/xarm/wrapper/common/timer.h
+[3.139s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/lib/libxarm_cxx_sdk.so
+[3.139s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/ament_index/resource_index/package_run_dependencies/xarm_sdk
+[3.139s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/ament_index/resource_index/parent_prefix_path/xarm_sdk
+[3.140s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.sh
+[3.141s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.dsv
+[3.141s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/environment/path.sh
+[3.143s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/environment/path.dsv
+[3.143s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/local_setup.bash
+[3.144s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/local_setup.sh
+[3.145s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/local_setup.zsh
+[3.146s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/local_setup.dsv
+[3.146s] -- Installing: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.dsv
+[3.147s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/ament_index/resource_index/packages/xarm_sdk
+[3.147s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[3.147s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.147s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig.cmake
+[3.147s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig-version.cmake
+[3.148s] -- Up-to-date: /root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.xml
+[3.148s] Invoked command in '/root/ros2_frws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/xarm_sdk

@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/course_works/course_works.egg-info
+writing ../../build/course_works/course_works.egg-info/PKG-INFO
+writing dependency_links to ../../build/course_works/course_works.egg-info/dependency_links.txt
+writing entry points to ../../build/course_works/course_works.egg-info/entry_points.txt
+writing requirements to ../../build/course_works/course_works.egg-info/requires.txt
+writing top-level names to ../../build/course_works/course_works.egg-info/top_level.txt
+writing manifest file '../../build/course_works/course_works.egg-info/SOURCES.txt'
+reading manifest file '../../build/course_works/course_works.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/course_works/course_works.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_frws/build/course_works/build
+creating /root/ros2_frws/build/course_works/build/lib
+creating /root/ros2_frws/build/course_works/build/lib/course_works
+copying course_works/signal_generator.py -> /root/ros2_frws/build/course_works/build/lib/course_works
+copying course_works/process.py -> /root/ros2_frws/build/course_works/build/lib/course_works
+copying course_works/__init__.py -> /root/ros2_frws/build/course_works/build/lib/course_works
+running install
+running install_lib
+creating /root/ros2_frws/install/course_works/lib/python3.10/site-packages/course_works
+copying /root/ros2_frws/build/course_works/build/lib/course_works/signal_generator.py -> /root/ros2_frws/install/course_works/lib/python3.10/site-packages/course_works
+copying /root/ros2_frws/build/course_works/build/lib/course_works/process.py -> /root/ros2_frws/install/course_works/lib/python3.10/site-packages/course_works
+copying /root/ros2_frws/build/course_works/build/lib/course_works/__init__.py -> /root/ros2_frws/install/course_works/lib/python3.10/site-packages/course_works
+byte-compiling /root/ros2_frws/install/course_works/lib/python3.10/site-packages/course_works/signal_generator.py to signal_generator.cpython-310.pyc
+byte-compiling /root/ros2_frws/install/course_works/lib/python3.10/site-packages/course_works/process.py to process.cpython-310.pyc
+byte-compiling /root/ros2_frws/install/course_works/lib/python3.10/site-packages/course_works/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_frws/install/course_works/share/ament_index
+creating /root/ros2_frws/install/course_works/share/ament_index/resource_index
+creating /root/ros2_frws/install/course_works/share/ament_index/resource_index/packages
+copying resource/course_works -> /root/ros2_frws/install/course_works/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_frws/install/course_works/share/course_works
+running install_egg_info
+Copying ../../build/course_works/course_works.egg-info to /root/ros2_frws/install/course_works/lib/python3.10/site-packages/course_works-0.0.0-py3.10.egg-info
+running install_scripts
+Installing processed_signal script to /root/ros2_frws/install/course_works/lib/course_works
+Installing signal_generator script to /root/ros2_frws/install/course_works/lib/course_works
+writing list of installed files to '/root/ros2_frws/build/course_works/install.log'

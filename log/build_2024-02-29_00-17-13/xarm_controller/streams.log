@@ -1,0 +1,98 @@
+[0.256s] Invoking command in '/root/ros2_frws/build/xarm_controller': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_frws/build/xarm_controller -- -j16 -l16
+[0.521s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.451s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.619s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.771s] -- Found hardware_interface: 2.39.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.029s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.036s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.055s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.107s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.144s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.404s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.411s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.483s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.506s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.558s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.570s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.584s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.864s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.920s] -- Found controller_manager_msgs: 2.39.1 (/opt/ros/humble/share/controller_manager_msgs/cmake)
+[3.991s] -- Found xarm_msgs: 0.0.0 (/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/cmake)
+[4.087s] -- Found xarm_api: 0.0.0 (/root/ros2_frws/install/xarm_api/share/xarm_api/cmake)
+[4.089s] -- Found xarm_sdk: 0.0.0 (/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/cmake)
+[4.217s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.224s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.224s] -- Configured cppcheck include dirs: /root/ros2_frws/src/xarm_ros2/xarm_controller/include
+[4.224s] -- Configured cppcheck exclude dirs and/or files: 
+[4.227s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.227s] -- Configured cpplint exclude dirs and/or files: 
+[4.228s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.229s] -- Added test 'lint_cmake' to check CMake code style
+[4.230s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.232s] -- Added test 'uncrustify' to check C / C++ code style
+[4.232s] -- Configured uncrustify additional arguments: 
+[4.234s] -- Added test 'xmllint' to check XML markup files
+[4.244s] -- Configuring done
+[4.340s] -- Generating done
+[4.346s] -- Build files have been written to: /root/ros2_frws/build/xarm_controller
+[4.400s] [35m[1mConsolidate compiler generated dependencies of target uf_robot_hardware[0m
+[4.469s] [ 66%] [32mBuilding CXX object CMakeFiles/uf_robot_hardware.dir/src/hardware/uf_robot_fake_system_hardware.cpp.o[0m
+[4.470s] [ 66%] [32mBuilding CXX object CMakeFiles/uf_robot_hardware.dir/src/hardware/uf_robot_system_hardware.cpp.o[0m
+[15.761s] [100%] [32m[1mLinking CXX shared library libuf_robot_hardware.so[0m
+[16.401s] [100%] Built target uf_robot_hardware
+[16.421s] Invoked command in '/root/ros2_frws/build/xarm_controller' returned '0': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_frws/build/xarm_controller -- -j16 -l16
+[16.471s] Invoking command in '/root/ros2_frws/build/xarm_controller': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ros2_frws/build/xarm_controller
+[16.482s] -- Install configuration: ""
+[16.483s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller/uf_hardware_interface_plugins.xml
+[16.485s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/include
+[16.485s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/include/xarm_controller
+[16.486s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/include/xarm_controller/hardware
+[16.486s] -- Installing: /root/ros2_frws/install/xarm_controller/include/xarm_controller/hardware/uf_robot_system_hardware.h
+[16.487s] -- Installing: /root/ros2_frws/install/xarm_controller/include/xarm_controller/hardware/uf_robot_fake_system_hardware.h
+[16.492s] -- Installing: /root/ros2_frws/install/xarm_controller/lib/libuf_robot_hardware.so
+[16.504s] -- Set runtime path of "/root/ros2_frws/install/xarm_controller/lib/libuf_robot_hardware.so" to ""
+[16.505s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch
+[16.505s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch/_ros2_control.launch.py
+[16.506s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch/uf850_control_rviz_display.launch.py
+[16.507s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch/_robot_ros2_control.launch.py
+[16.507s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch/lib
+[16.509s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch/lib/robot_controller_lib.py
+[16.510s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch/xarm7_mirror_control_rviz_display.launch.py
+[16.510s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch/_dual_ros2_control.launch.py
+[16.511s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch/xarm7_control_rviz_display.launch.py
+[16.513s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch/xarm6_control_rviz_display.launch.py
+[16.513s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch/lite6_control_rviz_display.launch.py
+[16.514s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//launch/xarm5_control_rviz_display.launch.py
+[16.515s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller//config
+[16.516s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//config/uf850_gripper_controllers.yaml
+[16.516s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//config/xarm7_controllers.yaml
+[16.517s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//config/xarm6_controllers.yaml
+[16.518s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//config/xarm7_mirror_gripper_controllers.yaml
+[16.518s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//config/bio_gripper_controllers.yaml
+[16.520s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//config/uf850_controllers.yaml
+[16.521s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//config/lite6_controllers.yaml
+[16.521s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//config/xarm7_mirror_controllers.yaml
+[16.522s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//config/xarm5_controllers.yaml
+[16.522s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller//config/xarm_gripper_controllers.yaml
+[16.524s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller/environment/library_path.sh
+[16.524s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller/environment/library_path.dsv
+[16.525s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/ament_index/resource_index/package_run_dependencies/xarm_controller
+[16.526s] -- Installing: /root/ros2_frws/install/xarm_controller/share/ament_index/resource_index/parent_prefix_path/xarm_controller
+[16.526s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller/environment/ament_prefix_path.sh
+[16.526s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller/environment/ament_prefix_path.dsv
+[16.527s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller/environment/path.sh
+[16.527s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller/environment/path.dsv
+[16.527s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller/local_setup.bash
+[16.528s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller/local_setup.sh
+[16.528s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller/local_setup.zsh
+[16.528s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller/local_setup.dsv
+[16.528s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller/package.dsv
+[16.529s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/ament_index/resource_index/packages/xarm_controller
+[16.530s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/xarm_controller
+[16.530s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.531s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[16.531s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.531s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller/cmake/xarm_controllerConfig.cmake
+[16.532s] -- Up-to-date: /root/ros2_frws/install/xarm_controller/share/xarm_controller/cmake/xarm_controllerConfig-version.cmake
+[16.532s] -- Installing: /root/ros2_frws/install/xarm_controller/share/xarm_controller/package.xml
+[16.537s] Invoked command in '/root/ros2_frws/build/xarm_controller' returned '0': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /root/ros2_frws/build/xarm_controller

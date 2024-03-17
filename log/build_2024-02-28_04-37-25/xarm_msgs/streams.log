@@ -1,0 +1,24 @@
+[0.422s] Invoking command in '/root/ros2_frws/build/xarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_msgs -- -j16 -l16
+[1.332s] [  0%] Built target xarm_msgs__cpp
+[1.333s] [ 12%] Built target xarm_msgs__rosidl_generator_c
+[1.333s] [ 12%] Built target ament_cmake_python_copy_xarm_msgs
+[1.333s] [ 24%] Built target xarm_msgs__rosidl_typesupport_cpp
+[1.333s] [ 37%] Built target xarm_msgs__rosidl_typesupport_c
+[1.333s] [ 50%] Built target xarm_msgs__rosidl_typesupport_introspection_c
+[1.334s] [ 63%] Built target xarm_msgs__rosidl_typesupport_introspection_cpp
+[1.334s] [ 75%] Built target xarm_msgs__rosidl_typesupport_fastrtps_cpp
+[1.334s] [ 88%] Built target xarm_msgs__rosidl_typesupport_fastrtps_c
+[1.334s] [ 88%] Built target xarm_msgs
+[1.334s] [ 88%] Built target xarm_msgs__py
+[1.334s] [100%] Built target xarm_msgs__rosidl_generator_py
+[1.334s] [100%] Built target xarm_msgs__rosidl_typesupport_c__pyext
+[1.335s] [100%] Built target xarm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.335s] [100%] Built target xarm_msgs__rosidl_typesupport_introspection_c__pyext
+[1.335s] running egg_info
+[1.335s] writing xarm_msgs.egg-info/PKG-INFO
+[1.335s] writing dependency_links to xarm_msgs.egg-info/dependency_links.txt
+[1.335s] writing top-level names to xarm_msgs.egg-info/top_level.txt
+[1.336s] reading manifest file 'xarm_msgs.egg-info/SOURCES.txt'
+[1.336s] writing manifest file 'xarm_msgs.egg-info/SOURCES.txt'
+[1.336s] [100%] Built target ament_cmake_python_build_xarm_msgs_egg
+[1.344s] Invoked command in '/root/ros2_frws/build/xarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_msgs -- -j16 -l16

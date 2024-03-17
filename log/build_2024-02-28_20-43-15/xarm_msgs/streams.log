@@ -1,0 +1,24 @@
+[0.881s] Invoking command in '/root/ros2_frws/build/xarm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_msgs -- -j16 -l16
+[2.182s] [  0%] Built target xarm_msgs__cpp
+[2.186s] [ 12%] Built target xarm_msgs__rosidl_generator_c
+[2.186s] [ 24%] Built target xarm_msgs__rosidl_typesupport_cpp
+[2.186s] [ 37%] Built target xarm_msgs__rosidl_typesupport_introspection_cpp
+[2.186s] [ 51%] Built target xarm_msgs__rosidl_typesupport_fastrtps_cpp
+[2.186s] [ 62%] Built target xarm_msgs__rosidl_typesupport_c
+[2.186s] [ 62%] Built target ament_cmake_python_copy_xarm_msgs
+[2.186s] [ 75%] Built target xarm_msgs__rosidl_typesupport_introspection_c
+[2.186s] [ 88%] Built target xarm_msgs__rosidl_typesupport_fastrtps_c
+[2.186s] [ 88%] Built target xarm_msgs
+[2.186s] [ 88%] Built target xarm_msgs__py
+[2.186s] [100%] Built target xarm_msgs__rosidl_generator_py
+[2.186s] [100%] Built target xarm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.187s] [100%] Built target xarm_msgs__rosidl_typesupport_introspection_c__pyext
+[2.187s] [100%] Built target xarm_msgs__rosidl_typesupport_c__pyext
+[2.187s] running egg_info
+[2.187s] writing xarm_msgs.egg-info/PKG-INFO
+[2.187s] writing dependency_links to xarm_msgs.egg-info/dependency_links.txt
+[2.187s] writing top-level names to xarm_msgs.egg-info/top_level.txt
+[2.187s] reading manifest file 'xarm_msgs.egg-info/SOURCES.txt'
+[2.187s] writing manifest file 'xarm_msgs.egg-info/SOURCES.txt'
+[2.187s] [100%] Built target ament_cmake_python_build_xarm_msgs_egg
+[2.203s] Invoked command in '/root/ros2_frws/build/xarm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_msgs -- -j16 -l16

@@ -1,0 +1,737 @@
+[1.369s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.369s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0808681d80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0808bab6a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0808bab6a0>>, mixin_verb=('build',))
+[1.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.421s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[1.422s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[1.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.422s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_frws'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms) by extensions ['ignore', 'ignore_ament_install']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms) by extension 'ignore'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms) by extension 'ignore_ament_install'
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms) by extensions ['colcon_pkg']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms) by extension 'colcon_pkg'
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms) by extensions ['colcon_meta']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms) by extension 'colcon_meta'
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms) by extensions ['ros']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms) by extension 'ros'
+[1.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/basic_comms' with type 'ros.ament_python' and name 'basic_comms'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms_param) by extensions ['ignore', 'ignore_ament_install']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms_param) by extension 'ignore'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms_param) by extension 'ignore_ament_install'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms_param) by extensions ['colcon_pkg']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms_param) by extension 'colcon_pkg'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms_param) by extensions ['colcon_meta']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms_param) by extension 'colcon_meta'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms_param) by extensions ['ros']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_comms_param) by extension 'ros'
+[1.442s] DEBUG:colcon.colcon_core.package_identification:Package 'src/basic_comms_param' with type 'ros.ament_python' and name 'basic_comms_param'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/challenge_2) by extensions ['ignore', 'ignore_ament_install']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/challenge_2) by extension 'ignore'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/challenge_2) by extension 'ignore_ament_install'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/challenge_2) by extensions ['colcon_pkg']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/challenge_2) by extension 'colcon_pkg'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/challenge_2) by extensions ['colcon_meta']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/challenge_2) by extension 'colcon_meta'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/challenge_2) by extensions ['ros']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/challenge_2) by extension 'ros'
+[1.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/challenge_2' with type 'ros.ament_python' and name 'challenge_2'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/course_works) by extensions ['ignore', 'ignore_ament_install']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/course_works) by extension 'ignore'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/course_works) by extension 'ignore_ament_install'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/course_works) by extensions ['colcon_pkg']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/course_works) by extension 'colcon_pkg'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/course_works) by extensions ['colcon_meta']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/course_works) by extension 'colcon_meta'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/course_works) by extensions ['ros']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/course_works) by extension 'ros'
+[1.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/course_works' with type 'ros.ament_python' and name 'course_works'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msg_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msg_interfaces) by extension 'ignore'
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msg_interfaces) by extension 'ignore_ament_install'
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msg_interfaces) by extensions ['colcon_pkg']
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msg_interfaces) by extension 'colcon_pkg'
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msg_interfaces) by extensions ['colcon_meta']
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msg_interfaces) by extension 'colcon_meta'
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msg_interfaces) by extensions ['ros']
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_msg_interfaces) by extension 'ros'
+[1.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_msg_interfaces' with type 'ros.ament_cmake' and name 'my_msg_interfaces'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extension 'ignore'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extension 'ignore_ament_install'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extensions ['colcon_pkg']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extension 'colcon_pkg'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extensions ['colcon_meta']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extension 'colcon_meta'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extensions ['ros']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extension 'ros'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extensions ['cmake', 'python']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extension 'cmake'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extension 'python'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extensions ['python_setup_py']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2) by extension 'python_setup_py'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extensions ['ignore', 'ignore_ament_install']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extension 'ignore'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extension 'ignore_ament_install'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extensions ['colcon_pkg']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extension 'colcon_pkg'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extensions ['colcon_meta']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extension 'colcon_meta'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extensions ['ros']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extension 'ros'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extensions ['cmake', 'python']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extension 'cmake'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extension 'python'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extensions ['python_setup_py']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty) by extension 'python_setup_py'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty/realsense_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty/realsense_gazebo_plugin) by extension 'ignore'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty/realsense_gazebo_plugin) by extension 'ignore_ament_install'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty/realsense_gazebo_plugin) by extensions ['colcon_pkg']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty/realsense_gazebo_plugin) by extension 'colcon_pkg'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty/realsense_gazebo_plugin) by extensions ['colcon_meta']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty/realsense_gazebo_plugin) by extension 'colcon_meta'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty/realsense_gazebo_plugin) by extensions ['ros']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/thirdparty/realsense_gazebo_plugin) by extension 'ros'
+[1.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_ros2/thirdparty/realsense_gazebo_plugin' with type 'ros.ament_cmake' and name 'realsense_gazebo_plugin'
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_api) by extensions ['ignore', 'ignore_ament_install']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_api) by extension 'ignore'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_api) by extension 'ignore_ament_install'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_api) by extensions ['colcon_pkg']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_api) by extension 'colcon_pkg'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_api) by extensions ['colcon_meta']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_api) by extension 'colcon_meta'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_api) by extensions ['ros']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_api) by extension 'ros'
+[1.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_ros2/xarm_api' with type 'ros.ament_cmake' and name 'xarm_api'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_controller) by extension 'ignore'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_controller) by extension 'ignore_ament_install'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_controller) by extensions ['colcon_pkg']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_controller) by extension 'colcon_pkg'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_controller) by extensions ['colcon_meta']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_controller) by extension 'colcon_meta'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_controller) by extensions ['ros']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_controller) by extension 'ros'
+[1.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_ros2/xarm_controller' with type 'ros.ament_cmake' and name 'xarm_controller'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_description) by extensions ['ignore', 'ignore_ament_install']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_description) by extension 'ignore'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_description) by extension 'ignore_ament_install'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_description) by extensions ['colcon_pkg']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_description) by extension 'colcon_pkg'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_description) by extensions ['colcon_meta']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_description) by extension 'colcon_meta'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_description) by extensions ['ros']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_description) by extension 'ros'
+[1.454s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_ros2/xarm_description' with type 'ros.ament_cmake' and name 'xarm_description'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_gazebo) by extension 'ignore'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_gazebo) by extension 'ignore_ament_install'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_gazebo) by extensions ['colcon_pkg']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_gazebo) by extension 'colcon_pkg'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_gazebo) by extensions ['colcon_meta']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_gazebo) by extension 'colcon_meta'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_gazebo) by extensions ['ros']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_gazebo) by extension 'ros'
+[1.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_ros2/xarm_gazebo' with type 'ros.ament_cmake' and name 'xarm_gazebo'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_config) by extension 'ignore'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_config) by extension 'ignore_ament_install'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_config) by extensions ['colcon_pkg']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_config) by extension 'colcon_pkg'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_config) by extensions ['colcon_meta']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_config) by extension 'colcon_meta'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_config) by extensions ['ros']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_config) by extension 'ros'
+[1.457s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_ros2/xarm_moveit_config' with type 'ros.ament_cmake' and name 'xarm_moveit_config'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_servo) by extensions ['ignore', 'ignore_ament_install']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_servo) by extension 'ignore'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_servo) by extension 'ignore_ament_install'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_servo) by extensions ['colcon_pkg']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_servo) by extension 'colcon_pkg'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_servo) by extensions ['colcon_meta']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_servo) by extension 'colcon_meta'
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_servo) by extensions ['ros']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_moveit_servo) by extension 'ros'
+[1.459s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_ros2/xarm_moveit_servo' with type 'ros.ament_cmake' and name 'xarm_moveit_servo'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_msgs) by extension 'ignore'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_msgs) by extension 'ignore_ament_install'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_msgs) by extensions ['colcon_pkg']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_msgs) by extension 'colcon_pkg'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_msgs) by extensions ['colcon_meta']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_msgs) by extension 'colcon_meta'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_msgs) by extensions ['ros']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_msgs) by extension 'ros'
+[1.460s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_ros2/xarm_msgs' with type 'ros.ament_cmake' and name 'xarm_msgs'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_planner) by extension 'ignore'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_planner) by extension 'ignore_ament_install'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_planner) by extensions ['colcon_pkg']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_planner) by extension 'colcon_pkg'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_planner) by extensions ['colcon_meta']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_planner) by extension 'colcon_meta'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_planner) by extensions ['ros']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_planner) by extension 'ros'
+[1.462s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_ros2/xarm_planner' with type 'ros.ament_cmake' and name 'xarm_planner'
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_sdk) by extensions ['ignore', 'ignore_ament_install']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_sdk) by extension 'ignore'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_sdk) by extension 'ignore_ament_install'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_sdk) by extensions ['colcon_pkg']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_sdk) by extension 'colcon_pkg'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_sdk) by extensions ['colcon_meta']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_sdk) by extension 'colcon_meta'
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_sdk) by extensions ['ros']
+[1.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_ros2/xarm_sdk) by extension 'ros'
+[1.463s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_ros2/xarm_sdk' with type 'ros.ament_cmake' and name 'xarm_sdk'
+[1.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.553s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_args' from command line to 'None'
+[1.553s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_target' from command line to 'None'
+[1.553s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.553s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_clean_cache' from command line to 'False'
+[1.553s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_clean_first' from command line to 'False'
+[1.553s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_force_configure' from command line to 'False'
+[1.553s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'ament_cmake_args' from command line to 'None'
+[1.553s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'catkin_cmake_args' from command line to 'None'
+[1.553s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.553s] DEBUG:colcon.colcon_core.verb:Building package 'basic_comms' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/basic_comms', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/basic_comms', 'merge_install': False, 'path': '/root/ros2_frws/src/basic_comms', 'symlink_install': False, 'test_result_base': None}
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'basic_comms_param' build argument 'cmake_args' from command line to 'None'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'basic_comms_param' build argument 'cmake_target' from command line to 'None'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'basic_comms_param' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'basic_comms_param' build argument 'cmake_clean_cache' from command line to 'False'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'basic_comms_param' build argument 'cmake_clean_first' from command line to 'False'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'basic_comms_param' build argument 'cmake_force_configure' from command line to 'False'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'basic_comms_param' build argument 'ament_cmake_args' from command line to 'None'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'basic_comms_param' build argument 'catkin_cmake_args' from command line to 'None'
+[1.567s] Level 5:colcon.colcon_core.verb:set package 'basic_comms_param' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.567s] DEBUG:colcon.colcon_core.verb:Building package 'basic_comms_param' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/basic_comms_param', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/basic_comms_param', 'merge_install': False, 'path': '/root/ros2_frws/src/basic_comms_param', 'symlink_install': False, 'test_result_base': None}
+[1.580s] Level 5:colcon.colcon_core.verb:set package 'course_works' build argument 'cmake_args' from command line to 'None'
+[1.580s] Level 5:colcon.colcon_core.verb:set package 'course_works' build argument 'cmake_target' from command line to 'None'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'course_works' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'course_works' build argument 'cmake_clean_cache' from command line to 'False'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'course_works' build argument 'cmake_clean_first' from command line to 'False'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'course_works' build argument 'cmake_force_configure' from command line to 'False'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'course_works' build argument 'ament_cmake_args' from command line to 'None'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'course_works' build argument 'catkin_cmake_args' from command line to 'None'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'course_works' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.581s] DEBUG:colcon.colcon_core.verb:Building package 'course_works' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/course_works', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/course_works', 'merge_install': False, 'path': '/root/ros2_frws/src/course_works', 'symlink_install': False, 'test_result_base': None}
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'my_msg_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'my_msg_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'my_msg_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'my_msg_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'my_msg_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'my_msg_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'my_msg_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'my_msg_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'my_msg_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.596s] DEBUG:colcon.colcon_core.verb:Building package 'my_msg_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/my_msg_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/my_msg_interfaces', 'merge_install': False, 'path': '/root/ros2_frws/src/my_msg_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_args' from command line to 'None'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target' from command line to 'None'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.611s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_gazebo_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/realsense_gazebo_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/realsense_gazebo_plugin', 'merge_install': False, 'path': '/root/ros2_frws/src/xarm_ros2/thirdparty/realsense_gazebo_plugin', 'symlink_install': False, 'test_result_base': None}
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_args' from command line to 'None'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_target' from command line to 'None'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.624s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/xarm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/xarm_description', 'merge_install': False, 'path': '/root/ros2_frws/src/xarm_ros2/xarm_description', 'symlink_install': False, 'test_result_base': None}
+[1.637s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_args' from command line to 'None'
+[1.637s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_target' from command line to 'None'
+[1.637s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.637s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.637s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.637s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.637s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.637s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.638s] Level 5:colcon.colcon_core.verb:set package 'xarm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.638s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/xarm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/xarm_msgs', 'merge_install': False, 'path': '/root/ros2_frws/src/xarm_ros2/xarm_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_args' from command line to 'None'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_target' from command line to 'None'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'xarm_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.652s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/xarm_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/xarm_sdk', 'merge_install': False, 'path': '/root/ros2_frws/src/xarm_ros2/xarm_sdk', 'symlink_install': False, 'test_result_base': None}
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_args' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_target' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_clean_first' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_force_configure' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'ament_cmake_args' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.669s] DEBUG:colcon.colcon_core.verb:Building package 'challenge_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/challenge_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/challenge_2', 'merge_install': False, 'path': '/root/ros2_frws/src/challenge_2', 'symlink_install': False, 'test_result_base': None}
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_args' from command line to 'None'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_target' from command line to 'None'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_clean_cache' from command line to 'False'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_clean_first' from command line to 'False'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'cmake_force_configure' from command line to 'False'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'ament_cmake_args' from command line to 'None'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'catkin_cmake_args' from command line to 'None'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'xarm_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.682s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/xarm_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/xarm_api', 'merge_install': False, 'path': '/root/ros2_frws/src/xarm_ros2/xarm_api', 'symlink_install': False, 'test_result_base': None}
+[1.700s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_args' from command line to 'None'
+[1.700s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_target' from command line to 'None'
+[1.700s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.700s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.700s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.700s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.700s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.700s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.700s] Level 5:colcon.colcon_core.verb:set package 'xarm_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.700s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/xarm_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/xarm_controller', 'merge_install': False, 'path': '/root/ros2_frws/src/xarm_ros2/xarm_controller', 'symlink_install': False, 'test_result_base': None}
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.713s] Level 5:colcon.colcon_core.verb:set package 'xarm_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.713s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/xarm_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/xarm_gazebo', 'merge_install': False, 'path': '/root/ros2_frws/src/xarm_ros2/xarm_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.728s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_args' from command line to 'None'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_target' from command line to 'None'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.729s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/xarm_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/xarm_moveit_config', 'merge_install': False, 'path': '/root/ros2_frws/src/xarm_ros2/xarm_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_args' from command line to 'None'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_target' from command line to 'None'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_clean_first' from command line to 'False'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'cmake_force_configure' from command line to 'False'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'ament_cmake_args' from command line to 'None'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'xarm_moveit_servo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.743s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_moveit_servo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/xarm_moveit_servo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/xarm_moveit_servo', 'merge_install': False, 'path': '/root/ros2_frws/src/xarm_ros2/xarm_moveit_servo', 'symlink_install': False, 'test_result_base': None}
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_args' from command line to 'None'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_target' from command line to 'None'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_clean_first' from command line to 'False'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'cmake_force_configure' from command line to 'False'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'ament_cmake_args' from command line to 'None'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[1.756s] Level 5:colcon.colcon_core.verb:set package 'xarm_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.756s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_frws/build/xarm_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_frws/install/xarm_planner', 'merge_install': False, 'path': '/root/ros2_frws/src/xarm_ros2/xarm_planner', 'symlink_install': False, 'test_result_base': None}
+[1.770s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.784s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.785s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_frws/src/xarm_ros2/xarm_description' with build type 'ament_cmake'
+[1.785s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_frws/src/xarm_ros2/xarm_description'
+[1.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.866s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_frws/src/xarm_ros2/xarm_msgs' with build type 'ament_cmake'
+[1.866s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_frws/src/xarm_ros2/xarm_msgs'
+[1.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.937s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_frws/src/xarm_ros2/xarm_sdk' with build type 'ament_cmake'
+[1.938s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_frws/src/xarm_ros2/xarm_sdk'
+[1.955s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.955s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.006s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_frws/src/my_msg_interfaces' with build type 'ament_cmake'
+[2.006s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_frws/src/my_msg_interfaces'
+[2.022s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.022s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.066s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_frws/src/basic_comms' with build type 'ament_python'
+[2.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_comms', 'ament_prefix_path')
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/basic_comms/share/basic_comms/hook/ament_prefix_path.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/basic_comms/share/basic_comms/hook/ament_prefix_path.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/basic_comms/share/basic_comms/hook/ament_prefix_path.sh'
+[2.101s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.147s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_frws/src/basic_comms_param' with build type 'ament_python'
+[2.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_comms_param', 'ament_prefix_path')
+[2.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/basic_comms_param/share/basic_comms_param/hook/ament_prefix_path.ps1'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/basic_comms_param/share/basic_comms_param/hook/ament_prefix_path.dsv'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/basic_comms_param/share/basic_comms_param/hook/ament_prefix_path.sh'
+[2.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.227s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_frws/src/course_works' with build type 'ament_python'
+[2.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('course_works', 'ament_prefix_path')
+[2.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/course_works/share/course_works/hook/ament_prefix_path.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/course_works/share/course_works/hook/ament_prefix_path.dsv'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/course_works/share/course_works/hook/ament_prefix_path.sh'
+[2.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_frws/src/xarm_ros2/thirdparty/realsense_gazebo_plugin' with build type 'ament_cmake'
+[2.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_frws/src/xarm_ros2/thirdparty/realsense_gazebo_plugin'
+[2.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_description -- -j16 -l16
+[2.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/build/xarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_msgs -- -j16 -l16
+[2.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_sdk -- -j16 -l16
+[2.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/build/my_msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/my_msg_interfaces -- -j16 -l16
+[2.656s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_frws/src/basic_comms'
+[2.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.950s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_frws/src/basic_comms_param'
+[2.965s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.965s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.248s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_frws/src/course_works'
+[3.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/realsense_gazebo_plugin -- -j16 -l16
+[3.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_description -- -j16 -l16
+[3.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/build/my_msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/my_msg_interfaces -- -j16 -l16
+[3.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_sdk -- -j16 -l16
+[3.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/build/xarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_msgs -- -j16 -l16
+[3.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/xarm_description
+[3.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_description)
+[3.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/xarm_description
+[3.493s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description' for CMake module files
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description' for CMake config files
+[3.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_description', 'cmake_prefix_path')
+[3.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.ps1'
+[3.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.dsv'
+[3.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.sh'
+[3.511s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description/bin'
+[3.511s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description/lib/pkgconfig/xarm_description.pc'
+[3.511s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description/lib/python3.10/site-packages'
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description/bin'
+[3.529s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_description/share/xarm_description/package.ps1'
+[3.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_frws/install/xarm_description/share/xarm_description/package.dsv'
+[3.531s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_description/share/xarm_description/package.sh'
+[3.531s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_description/share/xarm_description/package.bash'
+[3.532s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_description/share/xarm_description/package.zsh'
+[3.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_frws/install/xarm_description/share/colcon-core/packages/xarm_description)
+[3.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/xarm_sdk
+[3.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/build/my_msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/my_msg_interfaces
+[3.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/realsense_gazebo_plugin -- -j16 -l16
+[3.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_sdk)
+[3.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/xarm_sdk
+[3.594s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk' for CMake module files
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk' for CMake config files
+[3.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_sdk', 'cmake_prefix_path')
+[3.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.ps1'
+[3.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.dsv'
+[3.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.sh'
+[3.627s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk/lib'
+[3.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_sdk', 'ld_library_path_lib')
+[3.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.ps1'
+[3.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.dsv'
+[3.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.sh'
+[3.646s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk/bin'
+[3.647s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk/lib/pkgconfig/xarm_sdk.pc'
+[3.647s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk/lib/python3.10/site-packages'
+[3.647s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk/bin'
+[3.665s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.ps1'
+[3.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.dsv'
+[3.666s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.sh'
+[3.667s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.bash'
+[3.667s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.zsh'
+[3.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_frws/install/xarm_sdk/share/colcon-core/packages/xarm_sdk)
+[3.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/realsense_gazebo_plugin
+[3.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_description)
+[3.704s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description' for CMake module files
+[3.705s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description' for CMake config files
+[3.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_description', 'cmake_prefix_path')
+[3.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.ps1'
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.dsv'
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.sh'
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description/bin'
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description/lib/pkgconfig/xarm_description.pc'
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description/lib/python3.10/site-packages'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_description/bin'
+[3.740s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_description/share/xarm_description/package.ps1'
+[3.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_frws/install/xarm_description/share/xarm_description/package.dsv'
+[3.742s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_description/share/xarm_description/package.sh'
+[3.742s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_description/share/xarm_description/package.bash'
+[3.743s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_description/share/xarm_description/package.zsh'
+[3.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_frws/install/xarm_description/share/colcon-core/packages/xarm_description)
+[3.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_msg_interfaces)
+[3.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/build/my_msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/my_msg_interfaces
+[3.765s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces' for CMake module files
+[3.766s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces' for CMake config files
+[3.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_msg_interfaces', 'cmake_prefix_path')
+[3.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/cmake_prefix_path.ps1'
+[3.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/cmake_prefix_path.dsv'
+[3.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/cmake_prefix_path.sh'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces/lib'
+[3.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_msg_interfaces', 'ld_library_path_lib')
+[3.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/ld_library_path_lib.ps1'
+[3.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/ld_library_path_lib.dsv'
+[3.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/ld_library_path_lib.sh'
+[3.797s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces/bin'
+[3.797s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces/lib/pkgconfig/my_msg_interfaces.pc'
+[3.798s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces/lib/python3.10/site-packages'
+[3.798s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces/bin'
+[3.813s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.ps1'
+[3.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.dsv'
+[3.814s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.sh'
+[3.815s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.bash'
+[3.815s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.zsh'
+[3.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_frws/install/my_msg_interfaces/share/colcon-core/packages/my_msg_interfaces)
+[3.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_sdk)
+[3.857s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk' for CMake module files
+[3.857s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk' for CMake config files
+[3.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_sdk', 'cmake_prefix_path')
+[3.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.ps1'
+[3.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.dsv'
+[3.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/cmake_prefix_path.sh'
+[3.879s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk/lib'
+[3.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_sdk', 'ld_library_path_lib')
+[3.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.ps1'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.dsv'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/hook/ld_library_path_lib.sh'
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk/bin'
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk/lib/pkgconfig/xarm_sdk.pc'
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk/lib/python3.10/site-packages'
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_sdk/bin'
+[3.915s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.ps1'
+[3.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.dsv'
+[3.916s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.sh'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.bash'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_sdk/share/xarm_sdk/package.zsh'
+[3.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_frws/install/xarm_sdk/share/colcon-core/packages/xarm_sdk)
+[3.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_gazebo_plugin)
+[3.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/realsense_gazebo_plugin
+[3.936s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin' for CMake module files
+[3.936s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin' for CMake config files
+[3.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'cmake_prefix_path')
+[3.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[3.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[3.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.sh'
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin/lib'
+[3.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'ld_library_path_lib')
+[3.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[3.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[3.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.sh'
+[3.976s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin/bin'
+[3.976s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc'
+[3.976s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin/lib/python3.10/site-packages'
+[3.977s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin/bin'
+[3.994s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.ps1'
+[3.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv'
+[3.995s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.sh'
+[3.996s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.bash'
+[3.996s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.zsh'
+[3.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_frws/install/realsense_gazebo_plugin/share/colcon-core/packages/realsense_gazebo_plugin)
+[4.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_msg_interfaces)
+[4.040s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces' for CMake module files
+[4.041s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces' for CMake config files
+[4.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_msg_interfaces', 'cmake_prefix_path')
+[4.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/cmake_prefix_path.ps1'
+[4.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/cmake_prefix_path.dsv'
+[4.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/cmake_prefix_path.sh'
+[4.070s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces/lib'
+[4.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_msg_interfaces', 'ld_library_path_lib')
+[4.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/ld_library_path_lib.ps1'
+[4.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/ld_library_path_lib.dsv'
+[4.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/hook/ld_library_path_lib.sh'
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces/bin'
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces/lib/pkgconfig/my_msg_interfaces.pc'
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces/lib/python3.10/site-packages'
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/my_msg_interfaces/bin'
+[4.112s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.ps1'
+[4.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.dsv'
+[4.114s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.sh'
+[4.115s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.bash'
+[4.115s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.zsh'
+[4.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_frws/install/my_msg_interfaces/share/colcon-core/packages/my_msg_interfaces)
+[4.119s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_frws/src/challenge_2' with build type 'ament_python'
+[4.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('challenge_2', 'ament_prefix_path')
+[4.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/challenge_2/share/challenge_2/hook/ament_prefix_path.ps1'
+[4.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/challenge_2/share/challenge_2/hook/ament_prefix_path.dsv'
+[4.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/challenge_2/share/challenge_2/hook/ament_prefix_path.sh'
+[4.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/src/course_works': PYTHONPATH=/root/ros2_frws/build/course_works/prefix_override:/root/ros2_frws/install/course_works/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/course_works build --build-base /root/ros2_frws/build/course_works/build install --record /root/ros2_frws/build/course_works/install.log --single-version-externally-managed
+[4.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/src/basic_comms_param': PYTHONPATH=/root/ros2_frws/build/basic_comms_param/prefix_override:/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms_param build --build-base /root/ros2_frws/build/basic_comms_param/build install --record /root/ros2_frws/build/basic_comms_param/install.log --single-version-externally-managed
+[4.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/src/basic_comms': PYTHONPATH=/root/ros2_frws/build/basic_comms/prefix_override:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms build --build-base /root/ros2_frws/build/basic_comms/build install --record /root/ros2_frws/build/basic_comms/install.log --single-version-externally-managed
+[4.234s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_gazebo_plugin)
+[4.254s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin' for CMake module files
+[4.255s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin' for CMake config files
+[4.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'cmake_prefix_path')
+[4.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[4.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[4.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.sh'
+[4.275s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin/lib'
+[4.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'ld_library_path_lib')
+[4.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[4.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[4.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.sh'
+[4.295s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin/bin'
+[4.295s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc'
+[4.296s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin/lib/python3.10/site-packages'
+[4.296s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/realsense_gazebo_plugin/bin'
+[4.316s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.ps1'
+[4.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv'
+[4.317s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.sh'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.bash'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.zsh'
+[4.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_frws/install/realsense_gazebo_plugin/share/colcon-core/packages/realsense_gazebo_plugin)
+[4.538s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_frws/src/challenge_2'
+[4.558s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.558s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_frws/build/xarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/xarm_msgs
+[4.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_msgs)
+[4.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/build/xarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/xarm_msgs
+[4.781s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_msgs' for CMake module files
+[4.782s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_msgs' for CMake config files
+[4.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_msgs', 'cmake_prefix_path')
+[4.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/hook/cmake_prefix_path.ps1'
+[4.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/hook/cmake_prefix_path.dsv'
+[4.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/hook/cmake_prefix_path.sh'
+[4.803s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_msgs/lib'
+[4.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_msgs', 'ld_library_path_lib')
+[4.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/hook/ld_library_path_lib.ps1'
+[4.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/hook/ld_library_path_lib.dsv'
+[4.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/hook/ld_library_path_lib.sh'
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_msgs/bin'
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_msgs/lib/pkgconfig/xarm_msgs.pc'
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_msgs/lib/python3.10/site-packages'
+[4.824s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/xarm_msgs/bin'
+[4.837s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/package.ps1'
+[4.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/package.dsv'
+[4.838s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/package.sh'
+[4.838s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/package.bash'
+[4.838s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/xarm_msgs/share/xarm_msgs/package.zsh'
+[4.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_frws/install/xarm_msgs/share/colcon-core/packages/xarm_msgs)
+[4.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/src/basic_comms' returned '0': PYTHONPATH=/root/ros2_frws/build/basic_comms/prefix_override:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms build --build-base /root/ros2_frws/build/basic_comms/build install --record /root/ros2_frws/build/basic_comms/install.log --single-version-externally-managed
+[4.859s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms' for CMake module files
+[4.859s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms' for CMake config files
+[4.860s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms/lib'
+[4.860s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms/bin'
+[4.860s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms/lib/pkgconfig/basic_comms.pc'
+[4.861s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages'
+[4.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_comms', 'pythonpath')
+[4.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/basic_comms/share/basic_comms/hook/pythonpath.ps1'
+[4.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/basic_comms/share/basic_comms/hook/pythonpath.dsv'
+[4.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/basic_comms/share/basic_comms/hook/pythonpath.sh'
+[4.879s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms/bin'
+[4.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_comms)
+[4.897s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/basic_comms/share/basic_comms/package.ps1'
+[4.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_frws/install/basic_comms/share/basic_comms/package.dsv'
+[4.898s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/basic_comms/share/basic_comms/package.sh'
+[4.898s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/basic_comms/share/basic_comms/package.bash'
+[4.899s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/basic_comms/share/basic_comms/package.zsh'
+[4.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_frws/install/basic_comms/share/colcon-core/packages/basic_comms)
+[4.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/src/basic_comms_param' returned '0': PYTHONPATH=/root/ros2_frws/build/basic_comms_param/prefix_override:/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms_param build --build-base /root/ros2_frws/build/basic_comms_param/build install --record /root/ros2_frws/build/basic_comms_param/install.log --single-version-externally-managed
+[4.919s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms_param' for CMake module files
+[4.919s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms_param' for CMake config files
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms_param/lib'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms_param/bin'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms_param/lib/pkgconfig/basic_comms_param.pc'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages'
+[4.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_comms_param', 'pythonpath')
+[4.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/basic_comms_param/share/basic_comms_param/hook/pythonpath.ps1'
+[4.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/basic_comms_param/share/basic_comms_param/hook/pythonpath.dsv'
+[4.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/basic_comms_param/share/basic_comms_param/hook/pythonpath.sh'
+[4.942s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/basic_comms_param/bin'
+[4.942s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_comms_param)
+[4.957s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/basic_comms_param/share/basic_comms_param/package.ps1'
+[4.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_frws/install/basic_comms_param/share/basic_comms_param/package.dsv'
+[4.958s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/basic_comms_param/share/basic_comms_param/package.sh'
+[4.959s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/basic_comms_param/share/basic_comms_param/package.bash'
+[4.959s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_frws/install/basic_comms_param/share/basic_comms_param/package.zsh'
+[4.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_frws/install/basic_comms_param/share/colcon-core/packages/basic_comms_param)
+[4.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_frws/src/course_works' returned '0': PYTHONPATH=/root/ros2_frws/build/course_works/prefix_override:/root/ros2_frws/install/course_works/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/course_works build --build-base /root/ros2_frws/build/course_works/build install --record /root/ros2_frws/build/course_works/install.log --single-version-externally-managed
+[4.981s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/course_works' for CMake module files
+[4.982s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/course_works' for CMake config files
+[4.983s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/course_works/lib'
+[4.983s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/course_works/bin'
+[4.983s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/course_works/lib/pkgconfig/course_works.pc'
+[4.983s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/course_works/lib/python3.10/site-packages'
+[4.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('course_works', 'pythonpath')
+[5.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/course_works/share/course_works/hook/pythonpath.ps1'
+[5.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_frws/install/course_works/share/course_works/hook/pythonpath.dsv'
+[5.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_frws/install/course_works/share/course_works/hook/pythonpath.sh'
+[5.002s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_frws/install/course_works/bin'
+[5.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(course_works)
+[5.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[5.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[5.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[5.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.074s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.101s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.101s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.101s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.101s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.104s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[5.104s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.121s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_frws/install/local_setup.ps1'
+[5.123s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_frws/install/_local_setup_util_ps1.py'
+[5.124s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_frws/install/setup.ps1'
+[5.153s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_frws/install/local_setup.sh'
+[5.153s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_frws/install/_local_setup_util_sh.py'
+[5.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_frws/install/setup.sh'
+[5.170s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_frws/install/local_setup.bash'
+[5.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_frws/install/setup.bash'
+[5.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_frws/install/local_setup.zsh'
+[5.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_frws/install/setup.zsh'

@@ -1,0 +1,67 @@
+[0.101s] Invoking command in '/root/ros2_frws/build/xarm_planner': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_frws/build/xarm_planner -- -j16 -l16
+[0.172s] [  9%] Built target test_xarm_planner_client_pose
+[0.174s] [ 18%] Built target test_xarm_gripper_planner_client_joint
+[0.175s] [ 27%] Built target test_xarm_planner_client_joint
+[0.176s] [ 36%] Built target test_lite_gripper_realmove
+[0.181s] [ 45%] Built target xarm_planner
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target test_xarm_planner_api_pose[0m
+[0.224s] [ 63%] Built target xarm_planner_node
+[0.224s] [ 63%] Built target xarm_gripper_planner_node
+[0.228s] [ 72%] Built target test_xarm_planner_api_joint
+[0.229s] [ 81%] Built target test_dual_xarm_planner_api_joint
+[0.231s] [ 90%] Built target test_xarm_gripper_planner_api_joint
+[0.239s] [ 95%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m
+[5.115s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.115s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:37:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ was not declared in this scope
+[5.115s]    37 |     std::vector<[01;31m[KPose[m[K> PoseArray;
+[5.115s]       |                 [01;31m[K^~~~[m[K
+[5.115s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:37:17:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.115s] In file included from [01m[K/opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h:43[m[K,
+[5.115s]                  from [01m[K/opt/ros/humble/include/urdfdom_headers/urdf_model/link.h:44[m[K,
+[5.116s]                  from [01m[K/opt/ros/humble/include/urdfdom_headers/urdf_model/model.h:42[m[K,
+[5.116s]                  from [01m[K/opt/ros/humble/include/urdf/urdf/model.h:43[m[K,
+[5.116s]                  from [01m[K/opt/ros/humble/include/srdfdom/model.h:44[m[K,
+[5.116s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:42[m[K,
+[5.116s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[5.116s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[5.116s]                  from [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/include/xarm_planner/xarm_planner.h:14[m[K,
+[5.116s]                  from [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:8[m[K:
+[5.116s] [01m[K/opt/ros/humble/include/urdfdom_headers/urdf_model/pose.h:254:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kurdf::Pose[m[K’
+[5.116s]   254 | class [01;36m[KPose[m[K
+[5.116s]       |       [01;36m[K^~~~[m[K
+[5.116s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[5.116s]                  from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:39[m[K,
+[5.116s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[5.116s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[5.116s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[5.116s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[5.116s]                  from [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/include/xarm_planner/xarm_planner.h:14[m[K,
+[5.116s]                  from [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:8[m[K:
+[5.117s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:135:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Pose[m[K’
+[5.117s]   135 | using [01;36m[KPose[m[K =
+[5.117s]       |       [01;36m[K^~~~[m[K
+[5.117s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:37:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.117s]    37 |     std::vector<Pose[01;31m[K>[m[K PoseArray;
+[5.117s]       |                     [01;31m[K^[m[K
+[5.117s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:37:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.121s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget__pose1[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose1[m[K’?
+[5.121s]    62 |         [01;31m[Ktarget__pose1[m[K.position.x = posX;
+[5.121s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[5.121s]       |         [32m[Ktarget_pose1[m[K
+[5.121s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:71:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[KPoseArray[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[5.122s]    71 |         PoseArray.[01;31m[Kpush_back[m[K(target_pose1);
+[5.122s]       |                   [01;31m[K^~~~~~~~~[m[K
+[5.125s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:76:33:[m[K [01;31m[Kerror: [m[K‘[01m[KposeArray[m[K’ was not declared in this scope; did you mean ‘[01m[KPoseArray[m[K’?
+[5.126s]    76 |          for (size_t i = 0; i < [01;31m[KposeArray[m[K.size(); ++i) {
+[5.126s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[5.126s]       |                                 [32m[KPoseArray[m[K
+[5.126s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:86:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.126s]    86 | }
+[5.126s]       |  [01;31m[K^[m[K
+[5.126s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:17:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.126s]    17 | [01;36m[K{[m[K
+[5.126s]       | [01;36m[K^[m[K
+[9.153s] gmake[2]: *** [CMakeFiles/test_xarm_planner_api_pose.dir/build.make:76: CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o] Error 1
+[9.153s] gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/test_xarm_planner_api_pose.dir/all] Error 2
+[9.154s] gmake: *** [Makefile:146: all] Error 2
+[9.158s] Invoked command in '/root/ros2_frws/build/xarm_planner' returned '2': CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/root/ros2_frws/install/my_msg_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /root/ros2_frws/build/xarm_planner -- -j16 -l16

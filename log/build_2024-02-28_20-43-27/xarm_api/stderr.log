@@ -1,0 +1,4 @@
+gmake[2]: *** [CMakeFiles/xarm_ros_driver.dir/build.make:76: CMakeFiles/xarm_ros_driver.dir/src/xarm_driver.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/xarm_ros_driver.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/xarm_ros_client.dir/build.make:76: CMakeFiles/xarm_ros_client.dir/src/xarm_ros_client.cpp.o] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

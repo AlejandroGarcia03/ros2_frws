@@ -1,0 +1,36 @@
+[1.787s] Invoking command in '/root/ros2_frws/src/challenge_2': CMAKE_PREFIX_PATH=/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common LD_LIBRARY_PATH=/root/ros2_frws/install/my_msg_interfaces/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_frws/build/challenge_2/prefix_override:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge_2 build --build-base /root/ros2_frws/build/challenge_2/build install --record /root/ros2_frws/build/challenge_2/install.log --single-version-externally-managed
+[2.165s] running egg_info
+[2.187s] writing ../../build/challenge_2/challenge_2.egg-info/PKG-INFO
+[2.188s] writing dependency_links to ../../build/challenge_2/challenge_2.egg-info/dependency_links.txt
+[2.189s] writing entry points to ../../build/challenge_2/challenge_2.egg-info/entry_points.txt
+[2.189s] writing requirements to ../../build/challenge_2/challenge_2.egg-info/requires.txt
+[2.189s] writing top-level names to ../../build/challenge_2/challenge_2.egg-info/top_level.txt
+[2.235s] reading manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[2.235s] adding license file 'LICENSE'
+[2.236s] writing manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[2.236s] running build
+[2.237s] running build_py
+[2.237s] running install
+[2.237s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.238s] !!
+[2.238s] 
+[2.238s]         ********************************************************************************
+[2.238s]         Please avoid running ``setup.py`` directly.
+[2.238s]         Instead, use pypa/build, pypa/installer or other
+[2.238s]         standards-based tools.
+[2.238s] 
+[2.238s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.239s]         ********************************************************************************
+[2.239s] 
+[2.239s] !!
+[2.239s]   self.initialize_options()
+[2.247s] running install_lib
+[2.271s] running install_data
+[2.294s] copying package.xml -> /root/ros2_frws/install/challenge_2/share/challenge_2
+[2.295s] running install_egg_info
+[2.318s] removing '/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.318s] Copying ../../build/challenge_2/challenge_2.egg-info to /root/ros2_frws/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info
+[2.320s] running install_scripts
+[2.548s] Installing signal_generator script to /root/ros2_frws/install/challenge_2/lib/challenge_2
+[2.549s] writing list of installed files to '/root/ros2_frws/build/challenge_2/install.log'
+[2.591s] Invoked command in '/root/ros2_frws/src/challenge_2' returned '0': CMAKE_PREFIX_PATH=/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/tutorial_interfaces:/root/ros2_frws/install/realsense_gazebo_plugin:/root/ros2_frws/install/moveit_resources_prbt_support:/root/ros2_frws/install/moveit_resources:/root/ros2_frws/install/moveit_resources_pr2_description:/root/ros2_frws/install/moveit_resources_panda_moveit_config:/root/ros2_frws/install/moveit_resources_panda_description:/root/ros2_frws/install/moveit_resources_fanuc_moveit_config:/root/ros2_frws/install/moveit_resources_fanuc_description:/root/ros2_frws/install/moveit_common LD_LIBRARY_PATH=/root/ros2_frws/install/my_msg_interfaces/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_frws/build/challenge_2/prefix_override:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge_2 build --build-base /root/ros2_frws/build/challenge_2/build install --record /root/ros2_frws/build/challenge_2/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/realsense_gazebo_plugin.dir/build.make:282: CMakeFiles/realsense_gazebo_plugin.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/realsense_gazebo_plugin.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

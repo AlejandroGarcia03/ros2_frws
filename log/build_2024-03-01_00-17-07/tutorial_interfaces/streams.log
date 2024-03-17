@@ -1,0 +1,22 @@
+[0.086s] Invoking command in '/root/ros2_frws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/tutorial_interfaces -- -j16 -l16
+[0.109s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.270s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.270s]   By not providing "Findmsg.cmake" in CMAKE_MODULE_PATH this project has
+[0.271s]   asked CMake to find a package configuration file provided by "msg", but
+[0.271s]   CMake did not find one.
+[0.271s] 
+[0.271s]   Could not find a package configuration file provided by "msg" with any of
+[0.271s]   the following names:
+[0.271s] 
+[0.271s]     msgConfig.cmake
+[0.271s]     msg-config.cmake
+[0.271s] 
+[0.271s]   Add the installation prefix of "msg" to CMAKE_PREFIX_PATH or set "msg_DIR"
+[0.271s]   to a directory containing one of the above files.  If "msg" provides a
+[0.271s]   separate development package or SDK, be sure it has been installed.
+[0.272s] 
+[0.272s] [0m
+[0.272s] -- Configuring incomplete, errors occurred!
+[0.272s] See also "/root/ros2_frws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.274s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.277s] Invoked command in '/root/ros2_frws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/tutorial_interfaces -- -j16 -l16

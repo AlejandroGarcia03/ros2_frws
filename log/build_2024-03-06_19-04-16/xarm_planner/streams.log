@@ -1,0 +1,24 @@
+[0.065s] Invoking command in '/root/ros2_frws/build/xarm_planner': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_frws/build/xarm_planner -- -j16 -l16
+[0.124s] [ 18%] Built target test_xarm_planner_client_joint
+[0.124s] [ 18%] Built target test_xarm_planner_client_pose
+[0.125s] [ 27%] Built target test_lite_gripper_realmove
+[0.127s] [ 36%] Built target test_xarm_gripper_planner_client_joint
+[0.131s] [ 45%] Built target xarm_planner
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target test_xarm_planner_api_pose[0m
+[0.167s] [ 86%] Built target xarm_gripper_planner_node
+[0.167s] [ 77%] Built target test_dual_xarm_planner_api_joint
+[0.167s] [ 86%] Built target xarm_planner_node
+[0.167s] [ 86%] Built target test_xarm_planner_api_joint
+[0.167s] [ 90%] Built target test_xarm_gripper_planner_api_joint
+[0.179s] [ 95%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m
+[5.425s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.425s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:50:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat radius[m[K’
+[5.426s]    50 |     float [01;31m[Kradius[m[K = 0.3;
+[5.426s]       |           [01;31m[K^~~~~~[m[K
+[5.426s] [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:42:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat radius[m[K’ previously declared here
+[5.426s]    42 |     float [01;36m[Kradius[m[K = 0.5;
+[5.426s]       |           [01;36m[K^~~~~~[m[K
+[8.344s] gmake[2]: *** [CMakeFiles/test_xarm_planner_api_pose.dir/build.make:76: CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o] Error 1
+[8.344s] gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/test_xarm_planner_api_pose.dir/all] Error 2
+[8.345s] gmake: *** [Makefile:146: all] Error 2
+[8.348s] Invoked command in '/root/ros2_frws/build/xarm_planner' returned '2': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_frws/build/xarm_planner -- -j16 -l16

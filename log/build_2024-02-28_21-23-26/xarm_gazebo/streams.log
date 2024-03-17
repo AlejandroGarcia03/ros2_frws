@@ -1,0 +1,121 @@
+[0.134s] Invoking command in '/root/ros2_frws/build/xarm_gazebo': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_frws/build/xarm_gazebo -- -j16 -l16
+[0.185s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.763s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.867s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.986s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.990s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.003s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.024s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.048s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.143s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.146s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.379s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.575s] -- Found control_toolbox: 3.2.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[2.144s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.167s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.263s] -- Found controller_manager: 2.39.1 (/opt/ros/humble/share/controller_manager/cmake)
+[2.818s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.887s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.960s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.967s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.981s] -- Searching for dependencies of ignition-math6
+[2.985s] -- Looking for OGRE...
+[2.995s] -- Found Ogre Ghadamon (1.9.0)
+[2.996s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.005s] -- Looking for OGRE_Paging...
+[3.005s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.005s] -- Looking for OGRE_Terrain...
+[3.005s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.006s] -- Looking for OGRE_Property...
+[3.006s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.006s] -- Looking for OGRE_RTShaderSystem...
+[3.006s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.006s] -- Looking for OGRE_Volume...
+[3.006s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.006s] -- Looking for OGRE_Overlay...
+[3.006s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.115s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.117s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.118s] -- Searching for dependencies of ignition-transport8
+[3.146s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.171s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.177s] -- Checking for module 'libzmq >= 4'
+[3.201s] --   Found libzmq , version 4.3.4
+[3.245s] -- Checking for module 'uuid'
+[3.258s] --   Found uuid, version 2.37.2
+[3.296s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.296s] -- Searching for dependencies of ignition-msgs5
+[3.325s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.335s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.336s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.337s] -- Searching for dependencies of ignition-common3
+[3.337s] -- Looking for dlfcn.h - found
+[3.337s] -- Looking for libdl - found
+[3.351s] -- Searching for <ignition-common3> component [graphics]
+[3.353s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.353s] -- Searching for dependencies of ignition-common3-graphics
+[3.354s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.357s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.358s] -- Searching for dependencies of ignition-fuel_tools4
+[3.416s] -- Checking for module 'jsoncpp'
+[3.428s] --   Found jsoncpp, version 1.9.5
+[3.472s] -- Checking for module 'libzip'
+[3.485s] --   Found libzip, version 1.7.3
+[3.517s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.517s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.517s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.525s] -- Gazebo version: 11.10
+[3.530s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.944s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.947s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.948s] -- Configured cppcheck include dirs: /root/ros2_frws/src/xarm_ros2/xarm_gazebo/include
+[3.948s] -- Configured cppcheck exclude dirs and/or files: 
+[3.949s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.949s] -- Configured cpplint exclude dirs and/or files: 
+[3.950s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.951s] -- Added test 'lint_cmake' to check CMake code style
+[3.952s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.953s] -- Added test 'uncrustify' to check C / C++ code style
+[3.953s] -- Configured uncrustify additional arguments: 
+[3.954s] -- Added test 'xmllint' to check XML markup files
+[3.956s] -- Configuring done
+[4.072s] -- Generating done
+[4.076s] -- Build files have been written to: /root/ros2_frws/build/xarm_gazebo
+[4.127s] [35m[1mConsolidate compiler generated dependencies of target gazebo_mimic_joint_plugin[0m
+[4.220s] [ 50%] [32m[1mLinking CXX shared library libgazebo_mimic_joint_plugin.so[0m
+[4.757s] [100%] Built target gazebo_mimic_joint_plugin
+[4.768s] Invoked command in '/root/ros2_frws/build/xarm_gazebo' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_frws/build/xarm_gazebo -- -j16 -l16
+[4.801s] Invoking command in '/root/ros2_frws/build/xarm_gazebo': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_frws/build/xarm_gazebo
+[4.809s] -- Install configuration: ""
+[4.809s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/include
+[4.809s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/include/xarm_gazebo
+[4.810s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/include/xarm_gazebo/mimic_joint_plugin.h
+[4.811s] -- Installing: /root/ros2_frws/install/xarm_gazebo/lib/libgazebo_mimic_joint_plugin.so
+[4.815s] -- Set runtime path of "/root/ros2_frws/install/xarm_gazebo/lib/libgazebo_mimic_joint_plugin.so" to ""
+[4.815s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo//worlds
+[4.815s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo//worlds/table.world
+[4.816s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo//launch
+[4.816s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo//launch/xarm7_mirror_beside_table_gazebo.launch.py
+[4.816s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo//launch/_dual_robot_beside_table_gazebo.launch.py
+[4.816s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo//launch/uf850_beside_table_gazebo.launch.py
+[4.816s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo//launch/xarm5_beside_table_gazebo.launch.py
+[4.816s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo//launch/lite6_beside_table_gazebo.launch.py
+[4.816s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo//launch/xarm7_beside_table_gazebo.launch.py
+[4.817s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo//launch/xarm6_beside_table_gazebo.launch.py
+[4.817s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo//launch/_robot_beside_table_gazebo.launch.py
+[4.817s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/ament_index/resource_index/package_run_dependencies/xarm_gazebo
+[4.817s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/ament_index/resource_index/parent_prefix_path/xarm_gazebo
+[4.818s] -- Installing: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/environment/ament_prefix_path.sh
+[4.818s] -- Installing: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/environment/ament_prefix_path.dsv
+[4.818s] -- Installing: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/environment/path.sh
+[4.818s] -- Installing: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/environment/path.dsv
+[4.819s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/local_setup.bash
+[4.819s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/local_setup.sh
+[4.819s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/local_setup.zsh
+[4.819s] -- Installing: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/local_setup.dsv
+[4.819s] -- Installing: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/package.dsv
+[4.819s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/ament_index/resource_index/packages/xarm_gazebo
+[4.820s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/cmake/xarm_gazeboConfig.cmake
+[4.820s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/cmake/xarm_gazeboConfig-version.cmake
+[4.820s] -- Up-to-date: /root/ros2_frws/install/xarm_gazebo/share/xarm_gazebo/package.xml
+[4.823s] Invoked command in '/root/ros2_frws/build/xarm_gazebo' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_frws/build/xarm_gazebo

@@ -1,0 +1,3 @@
+[console_scripts]
+subscriber = basic_comms.subscriber:main
+talker = basic_comms.talker:main

@@ -1,0 +1,1 @@
+Invoking command in '/root/ros2_frws/build/xarm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/xarm_ros2/xarm_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/xarm_msgs

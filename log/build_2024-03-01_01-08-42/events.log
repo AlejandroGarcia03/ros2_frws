@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (-) JobUnselected: {'identifier': 'basic_comms'}
+[0.000507] (-) JobUnselected: {'identifier': 'basic_comms_param'}
+[0.000531] (-) JobUnselected: {'identifier': 'challenge_2'}
+[0.000551] (-) JobUnselected: {'identifier': 'course_works'}
+[0.000569] (-) JobUnselected: {'identifier': 'my_param_interfaces'}
+[0.000588] (-) JobUnselected: {'identifier': 'realsense_gazebo_plugin'}
+[0.000607] (-) JobUnselected: {'identifier': 'xarm_api'}
+[0.000626] (-) JobUnselected: {'identifier': 'xarm_controller'}
+[0.000644] (-) JobUnselected: {'identifier': 'xarm_description'}
+[0.000678] (-) JobUnselected: {'identifier': 'xarm_gazebo'}
+[0.000698] (-) JobUnselected: {'identifier': 'xarm_moveit_config'}
+[0.000716] (-) JobUnselected: {'identifier': 'xarm_moveit_servo'}
+[0.000735] (-) JobUnselected: {'identifier': 'xarm_msgs'}
+[0.000752] (-) JobUnselected: {'identifier': 'xarm_planner'}
+[0.000790] (-) JobUnselected: {'identifier': 'xarm_sdk'}
+[0.000829] (my_msg_interfaces) JobQueued: {'identifier': 'my_msg_interfaces', 'dependencies': OrderedDict()}
+[0.000866] (my_msg_interfaces) JobStarted: {'identifier': 'my_msg_interfaces'}
+[0.080776] (my_msg_interfaces) JobProgress: {'identifier': 'my_msg_interfaces', 'progress': 'cmake'}
+[0.081444] (my_msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_frws/src/my_msg_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/my_msg_interfaces'], 'cwd': '/root/ros2_frws/build/my_msg_interfaces', 'env': OrderedDict([('HOSTNAME', '77473671da6f'), ('GIT_ASKPASS', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_frws/src'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8bb99922-e4a6-47db-833e-d5d50a1bd74a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ed1d13b4-0901-41c8-bb11-d14245ddc171.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-68a4ecdcc3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_frws/build/my_msg_interfaces'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099099] (-) TimerEvent: {}
+[0.159486] (my_msg_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199316] (-) TimerEvent: {}
+[0.214719] (my_msg_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.221795] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.297865] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299411] (-) TimerEvent: {}
+[0.317432] (my_msg_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.333895] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.334298] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.350587] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399583] (-) TimerEvent: {}
+[0.435351] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.441210] (my_msg_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.441575] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.441770] (my_msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.446611] (my_msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499952] (-) TimerEvent: {}
+[0.600563] (-) TimerEvent: {}
+[0.701045] (-) TimerEvent: {}
+[0.801496] (-) TimerEvent: {}
+[0.817449] (my_msg_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901710] (-) TimerEvent: {}
+[0.937350] (my_msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.947098] (my_msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.969663] (my_msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.001953] (-) TimerEvent: {}
+[1.054246] (my_msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.102211] (-) TimerEvent: {}
+[1.202883] (-) TimerEvent: {}
+[1.303517] (-) TimerEvent: {}
+[1.402639] (my_msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.403669] (-) TimerEvent: {}
+[1.504079] (-) TimerEvent: {}
+[1.604704] (-) TimerEvent: {}
+[1.644609] (my_msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.704955] (-) TimerEvent: {}
+[1.805622] (-) TimerEvent: {}
+[1.901078] (my_msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.905742] (-) TimerEvent: {}
+[1.932783] (my_msg_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.943231] (my_msg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.997992] (my_msg_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.998530] (my_msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.998673] (my_msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.998792] (my_msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.005956] (-) TimerEvent: {}
+[2.027748] (my_msg_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.106103] (-) TimerEvent: {}
+[2.121211] (my_msg_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.206274] (-) TimerEvent: {}
+[2.258758] (my_msg_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.269930] (my_msg_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_frws/build/my_msg_interfaces\n'}
+[2.278832] (my_msg_interfaces) CommandEnded: {'returncode': 0}
+[2.281445] (my_msg_interfaces) JobProgress: {'identifier': 'my_msg_interfaces', 'progress': 'build'}
+[2.281540] (my_msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_frws/build/my_msg_interfaces', '--', '-j16', '-l16'], 'cwd': '/root/ros2_frws/build/my_msg_interfaces', 'env': OrderedDict([('HOSTNAME', '77473671da6f'), ('GIT_ASKPASS', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_frws/src'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8bb99922-e4a6-47db-833e-d5d50a1bd74a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ed1d13b4-0901-41c8-bb11-d14245ddc171.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-68a4ecdcc3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_frws/build/my_msg_interfaces'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.306485] (-) TimerEvent: {}
+[2.315210] (my_msg_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.323456] (my_msg_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.338032] (my_msg_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_my_msg_interfaces\n'}
+[2.406691] (-) TimerEvent: {}
+[2.507284] (-) TimerEvent: {}
+[2.606204] (my_msg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.607399] (my_msg_interfaces) StdoutLine: {'line': b'creating my_msg_interfaces.egg-info\n'}
+[2.607623] (-) TimerEvent: {}
+[2.626451] (my_msg_interfaces) StdoutLine: {'line': b'writing my_msg_interfaces.egg-info/PKG-INFO\n'}
+[2.627245] (my_msg_interfaces) StdoutLine: {'line': b'writing dependency_links to my_msg_interfaces.egg-info/dependency_links.txt\n'}
+[2.627847] (my_msg_interfaces) StdoutLine: {'line': b'writing top-level names to my_msg_interfaces.egg-info/top_level.txt\n'}
+[2.628500] (my_msg_interfaces) StdoutLine: {'line': b"writing manifest file 'my_msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.649315] (my_msg_interfaces) StdoutLine: {'line': b'[  6%] Built target my_msg_interfaces__cpp\n'}
+[2.658997] (my_msg_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.659223] (my_msg_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.659308] (my_msg_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.678479] (my_msg_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_msg_interfaces/msg/detail/my_parameter__functions.c.o\x1b[0m\n'}
+[2.679756] (my_msg_interfaces) StdoutLine: {'line': b"reading manifest file 'my_msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.680518] (my_msg_interfaces) StdoutLine: {'line': b"writing manifest file 'my_msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.707768] (-) TimerEvent: {}
+[2.710396] (my_msg_interfaces) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_my_msg_interfaces_egg\n'}
+[2.803165] (my_msg_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmy_msg_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.807959] (-) TimerEvent: {}
+[2.844803] (my_msg_interfaces) StdoutLine: {'line': b'[ 22%] Built target my_msg_interfaces__rosidl_generator_c\n'}
+[2.854772] (my_msg_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.855008] (my_msg_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.855255] (my_msg_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.908095] (-) TimerEvent: {}
+[2.929046] (my_msg_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msg_interfaces/msg/my_parameter__type_support.cpp.o\x1b[0m\n'}
+[2.951475] (my_msg_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msg_interfaces/msg/detail/my_parameter__type_support.cpp.o\x1b[0m\n'}
+[2.957410] (my_msg_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msg_interfaces/msg/detail/dds_fastrtps/my_parameter__type_support.cpp.o\x1b[0m\n'}
+[3.008348] (-) TimerEvent: {}
+[3.108821] (-) TimerEvent: {}
+[3.129147] (my_msg_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msg_interfaces/msg/my_parameter__type_support.cpp.o\x1b[0m\n'}
+[3.163558] (my_msg_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msg_interfaces/msg/detail/my_parameter__type_support.c.o\x1b[0m\n'}
+[3.172165] (my_msg_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msg_interfaces/msg/detail/my_parameter__type_support_c.cpp.o\x1b[0m\n'}
+[3.172432] (my_msg_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msg_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.202881] (my_msg_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libmy_msg_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.208973] (-) TimerEvent: {}
+[3.232609] (my_msg_interfaces) StdoutLine: {'line': b'[ 58%] Built target my_msg_interfaces__rosidl_typesupport_c\n'}
+[3.241176] (my_msg_interfaces) StdoutLine: {'line': b'[ 58%] Built target my_msg_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.309177] (-) TimerEvent: {}
+[3.388127] (my_msg_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msg_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.409353] (-) TimerEvent: {}
+[3.430897] (my_msg_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_msg_interfaces__rosidl_typesupport_cpp\n'}
+[3.509513] (-) TimerEvent: {}
+[3.516580] (my_msg_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msg_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.535829] (my_msg_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msg_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.597230] (my_msg_interfaces) StdoutLine: {'line': b'[ 67%] Built target my_msg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.609979] (-) TimerEvent: {}
+[3.618398] (my_msg_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msg_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.638723] (my_msg_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_msg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.697740] (my_msg_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_msg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.710057] (-) TimerEvent: {}
+[3.718592] (my_msg_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_msg_interfaces\n'}
+[3.737868] (my_msg_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.810245] (-) TimerEvent: {}
+[3.910717] (-) TimerEvent: {}
+[4.011168] (-) TimerEvent: {}
+[4.074907] (my_msg_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_msg_interfaces__py\n'}
+[4.093033] (my_msg_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_msg_interfaces/msg/_my_parameter_s.c.o\x1b[0m\n'}
+[4.111335] (-) TimerEvent: {}
+[4.211849] (-) TimerEvent: {}
+[4.288534] (my_msg_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msg_interfaces/libmy_msg_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[4.311983] (-) TimerEvent: {}
+[4.327005] (my_msg_interfaces) StdoutLine: {'line': b'[ 80%] Built target my_msg_interfaces__rosidl_generator_py\n'}
+[4.348306] (my_msg_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.348635] (my_msg_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.348796] (my_msg_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.412193] (-) TimerEvent: {}
+[4.444309] (my_msg_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.446908] (my_msg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.447297] (my_msg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.478064] (my_msg_interfaces) StdoutLine: {'line': b'[100%] Built target my_msg_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.478422] (my_msg_interfaces) StdoutLine: {'line': b'[100%] Built target my_msg_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.478649] (my_msg_interfaces) StdoutLine: {'line': b'[100%] Built target my_msg_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.489938] (my_msg_interfaces) CommandEnded: {'returncode': 0}
+[4.512321] (-) TimerEvent: {}
+[4.548503] (my_msg_interfaces) JobProgress: {'identifier': 'my_msg_interfaces', 'progress': 'install'}
+[4.558700] (my_msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_frws/build/my_msg_interfaces'], 'cwd': '/root/ros2_frws/build/my_msg_interfaces', 'env': OrderedDict([('HOSTNAME', '77473671da6f'), ('GIT_ASKPASS', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_frws/src'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8bb99922-e4a6-47db-833e-d5d50a1bd74a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('DEBUGINFOD_URLS', ''), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ed1d13b4-0901-41c8-bb11-d14245ddc171.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('REMOTE_CONTAINERS_SOCKETS', '[]'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-68a4ecdcc3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_frws/build/my_msg_interfaces'), ('LC_ALL', 'C.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.565477] (my_msg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.566737] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_msg_interfaces\n'}
+[4.567079] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces\n'}
+[4.567704] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg\n'}
+[4.567965] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.568522] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail\n'}
+[4.569010] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__struct.h\n'}
+[4.569304] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__type_support.h\n'}
+[4.569810] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__functions.h\n'}
+[4.570564] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__functions.c\n'}
+[4.570841] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/my_parameter.h\n'}
+[4.572076] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/library_path.sh\n'}
+[4.572351] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/library_path.dsv\n'}
+[4.572771] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_generator_c.so\n'}
+[4.573312] (my_msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.573542] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces\n'}
+[4.573650] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg\n'}
+[4.573950] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.574100] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail\n'}
+[4.574327] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__rosidl_typesupport_fastrtps_c.h\n'}
+[4.574401] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.574639] (my_msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.574792] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces\n'}
+[4.574926] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg\n'}
+[4.575085] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.575262] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail\n'}
+[4.575329] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__rosidl_typesupport_introspection_c.h\n'}
+[4.575880] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__type_support.c\n'}
+[4.576368] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.577338] (my_msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.577524] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_c.so\n'}
+[4.577963] (my_msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.578241] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces\n'}
+[4.578310] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg\n'}
+[4.578437] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail\n'}
+[4.578494] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__traits.hpp\n'}
+[4.578566] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__builder.hpp\n'}
+[4.578873] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__struct.hpp\n'}
+[4.579110] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/my_parameter.hpp\n'}
+[4.579342] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces\n'}
+[4.579569] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg\n'}
+[4.579662] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail\n'}
+[4.579722] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/dds_fastrtps\n'}
+[4.579829] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.580100] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.580453] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.581319] (my_msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.581541] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces\n'}
+[4.581723] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg\n'}
+[4.581821] (my_msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail\n'}
+[4.581941] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__type_support.cpp\n'}
+[4.582102] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.582371] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.583048] (my_msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.583266] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.583536] (my_msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.583713] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/pythonpath.sh\n'}
+[4.584398] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/pythonpath.dsv\n'}
+[4.584578] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces-0.0.0-py3.10.egg-info\n'}
+[4.587673] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.588081] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.588404] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.588549] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.588722] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces\n'}
+[4.589265] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.589751] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.589996] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.590904] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.591230] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.591798] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/libmy_msg_interfaces__rosidl_generator_py.so\n'}
+[4.592063] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.592385] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/__init__.py\n'}
+[4.592579] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg\n'}
+[4.592987] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg/_my_parameter_s.c\n'}
+[4.594316] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg/__init__.py\n'}
+[4.594575] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg/_my_parameter.py\n'}
+[4.612521] (-) TimerEvent: {}
+[4.631139] (my_msg_interfaces) StdoutLine: {'line': b"Listing '/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces'...\n"}
+[4.631416] (my_msg_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/__init__.py'...\n"}
+[4.631526] (my_msg_interfaces) StdoutLine: {'line': b"Listing '/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg'...\n"}
+[4.631609] (my_msg_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg/__init__.py'...\n"}
+[4.631684] (my_msg_interfaces) StdoutLine: {'line': b"Compiling '/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg/_my_parameter.py'...\n"}
+[4.637152] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.637499] (my_msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.637762] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.638096] (my_msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.638426] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.638705] (my_msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.638908] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_generator_py.so\n'}
+[4.639664] (my_msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_generator_py.so" to ""\n'}
+[4.640463] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/msg/MyParameter.idl\n'}
+[4.641121] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/msg/MyParameter.msg\n'}
+[4.642020] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/ament_index/resource_index/package_run_dependencies/my_msg_interfaces\n'}
+[4.643472] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/ament_index/resource_index/parent_prefix_path/my_msg_interfaces\n'}
+[4.643781] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/ament_prefix_path.sh\n'}
+[4.643984] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.644245] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/path.sh\n'}
+[4.644452] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/path.dsv\n'}
+[4.644651] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/local_setup.bash\n'}
+[4.645184] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/local_setup.sh\n'}
+[4.645404] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/local_setup.zsh\n'}
+[4.645592] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/local_setup.dsv\n'}
+[4.645852] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.dsv\n'}
+[4.646339] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/ament_index/resource_index/packages/my_msg_interfaces\n'}
+[4.646978] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.647260] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.647491] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.647725] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.648155] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.648725] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.649163] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.651012] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.651840] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.652229] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.652542] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.652897] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.653284] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.654170] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.654408] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.654672] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.655283] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.655845] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.656218] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.657198] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.657413] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.657684] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.657990] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.658299] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.659171] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfacesConfig.cmake\n'}
+[4.660058] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfacesConfig-version.cmake\n'}
+[4.660786] (my_msg_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.xml\n'}
+[4.663573] (my_msg_interfaces) CommandEnded: {'returncode': 0}
+[4.712803] (-) TimerEvent: {}
+[4.813575] (-) TimerEvent: {}
+[4.887344] (my_msg_interfaces) JobEnded: {'identifier': 'my_msg_interfaces', 'rc': 0}
+[4.888598] (-) EventReactorShutdown: {}

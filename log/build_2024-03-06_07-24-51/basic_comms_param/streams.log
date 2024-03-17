@@ -1,0 +1,35 @@
+[1.611s] Invoking command in '/root/ros2_frws/src/basic_comms_param': PYTHONPATH=/root/ros2_frws/build/basic_comms_param/prefix_override:/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms_param build --build-base /root/ros2_frws/build/basic_comms_param/build install --record /root/ros2_frws/build/basic_comms_param/install.log --single-version-externally-managed
+[1.800s] running egg_info
+[1.812s] writing ../../build/basic_comms_param/basic_comms_param.egg-info/PKG-INFO
+[1.812s] writing dependency_links to ../../build/basic_comms_param/basic_comms_param.egg-info/dependency_links.txt
+[1.812s] writing entry points to ../../build/basic_comms_param/basic_comms_param.egg-info/entry_points.txt
+[1.813s] writing requirements to ../../build/basic_comms_param/basic_comms_param.egg-info/requires.txt
+[1.813s] writing top-level names to ../../build/basic_comms_param/basic_comms_param.egg-info/top_level.txt
+[1.841s] reading manifest file '../../build/basic_comms_param/basic_comms_param.egg-info/SOURCES.txt'
+[1.841s] adding license file 'LICENSE'
+[1.842s] writing manifest file '../../build/basic_comms_param/basic_comms_param.egg-info/SOURCES.txt'
+[1.842s] running build
+[1.843s] running build_py
+[1.843s] running install
+[1.843s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.843s] !!
+[1.843s] 
+[1.843s]         ********************************************************************************
+[1.843s]         Please avoid running ``setup.py`` directly.
+[1.843s]         Instead, use pypa/build, pypa/installer or other
+[1.843s]         standards-based tools.
+[1.843s] 
+[1.844s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.844s]         ********************************************************************************
+[1.844s] 
+[1.844s] !!
+[1.844s]   self.initialize_options()
+[1.848s] running install_lib
+[1.861s] running install_data
+[1.874s] running install_egg_info
+[1.886s] removing '/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages/basic_comms_param-0.0.0-py3.10.egg-info' (and everything under it)
+[1.887s] Copying ../../build/basic_comms_param/basic_comms_param.egg-info to /root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages/basic_comms_param-0.0.0-py3.10.egg-info
+[1.888s] running install_scripts
+[2.017s] Installing talker_params script to /root/ros2_frws/install/basic_comms_param/lib/basic_comms_param
+[2.017s] writing list of installed files to '/root/ros2_frws/build/basic_comms_param/install.log'
+[2.118s] Invoked command in '/root/ros2_frws/src/basic_comms_param' returned '0': PYTHONPATH=/root/ros2_frws/build/basic_comms_param/prefix_override:/root/ros2_frws/install/basic_comms_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms_param build --build-base /root/ros2_frws/build/basic_comms_param/build install --record /root/ros2_frws/build/basic_comms_param/install.log --single-version-externally-managed

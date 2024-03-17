@@ -1,0 +1,213 @@
+[0.711s] Invoking command in '/root/ros2_frws/build/my_msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/my_msg_interfaces -- -j16 -l16
+[2.130s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.130s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.130s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.130s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.131s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.131s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.131s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.338s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.387s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.387s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.387s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.452s] -- Configuring done
+[2.515s] -- Generating done
+[2.523s] -- Build files have been written to: /root/ros2_frws/build/my_msg_interfaces
+[2.562s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_generator_c[0m
+[2.580s] [  3%] Built target my_msg_interfaces__cpp
+[2.584s] [  6%] [32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_msg_interfaces/msg/detail/my_parameter__functions.c.o[0m
+[2.595s] [  6%] Built target ament_cmake_python_copy_my_msg_interfaces
+[2.597s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.599s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_cpp[0m
+[2.600s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.630s] [  9%] [32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msg_interfaces/msg/detail/dds_fastrtps/my_parameter__type_support.cpp.o[0m
+[2.630s] [ 16%] [32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msg_interfaces/msg/detail/my_parameter__type_support.cpp.o[0m
+[2.630s] [ 16%] [32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msg_interfaces/msg/my_parameter__type_support.cpp.o[0m
+[2.712s] [ 19%] [32m[1mLinking C shared library libmy_msg_interfaces__rosidl_generator_c.so[0m
+[2.796s] [ 22%] Built target my_msg_interfaces__rosidl_generator_c
+[2.820s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_introspection_c[0m
+[2.822s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.822s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_c[0m
+[2.842s] [ 29%] [32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msg_interfaces/msg/my_parameter__type_support.cpp.o[0m
+[2.842s] [ 29%] [32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msg_interfaces/msg/detail/my_parameter__type_support.c.o[0m
+[2.849s] [ 32%] [32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msg_interfaces/msg/detail/my_parameter__type_support_c.cpp.o[0m
+[2.902s] [ 35%] [32m[1mLinking C shared library libmy_msg_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.913s] [ 38%] [32m[1mLinking CXX shared library libmy_msg_interfaces__rosidl_typesupport_c.so[0m
+[2.969s] [ 41%] Built target my_msg_interfaces__rosidl_typesupport_introspection_c
+[2.995s] [ 45%] Built target my_msg_interfaces__rosidl_typesupport_c
+[3.066s] running egg_info
+[3.103s] writing my_msg_interfaces.egg-info/PKG-INFO
+[3.103s] writing dependency_links to my_msg_interfaces.egg-info/dependency_links.txt
+[3.103s] writing top-level names to my_msg_interfaces.egg-info/top_level.txt
+[3.180s] [ 48%] [32m[1mLinking CXX shared library libmy_msg_interfaces__rosidl_typesupport_cpp.so[0m
+[3.206s] reading manifest file 'my_msg_interfaces.egg-info/SOURCES.txt'
+[3.207s] writing manifest file 'my_msg_interfaces.egg-info/SOURCES.txt'
+[3.257s] [ 51%] Built target my_msg_interfaces__rosidl_typesupport_cpp
+[3.267s] [ 51%] Built target ament_cmake_python_build_my_msg_interfaces_egg
+[3.379s] [ 54%] [32m[1mLinking CXX shared library libmy_msg_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.399s] [ 58%] [32m[1mLinking CXX shared library libmy_msg_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.458s] [ 61%] [32m[1mLinking CXX shared library libmy_msg_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.501s] [ 64%] Built target my_msg_interfaces__rosidl_typesupport_introspection_cpp
+[3.533s] [ 67%] Built target my_msg_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.576s] [ 70%] Built target my_msg_interfaces__rosidl_typesupport_fastrtps_c
+[3.604s] [ 70%] Built target my_msg_interfaces
+[3.639s] [ 74%] Built target my_msg_interfaces__py
+[3.656s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_generator_py[0m
+[3.676s] [ 77%] [32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_msg_interfaces/msg/_my_parameter_s.c.o[0m
+[3.850s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/my_msg_interfaces/libmy_msg_interfaces__rosidl_generator_py.so[0m
+[3.912s] [ 80%] Built target my_msg_interfaces__rosidl_generator_py
+[3.931s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.931s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.931s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_c__pyext[0m
+[3.955s] [ 83%] [32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.955s] [ 87%] [32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.959s] [ 90%] [32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.107s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.107s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.108s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.161s] [100%] Built target my_msg_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.161s] [100%] Built target my_msg_interfaces__rosidl_typesupport_c__pyext
+[4.165s] [100%] Built target my_msg_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.183s] Invoked command in '/root/ros2_frws/build/my_msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/my_msg_interfaces -- -j16 -l16
+[4.497s] Invoking command in '/root/ros2_frws/build/my_msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/my_msg_interfaces
+[4.498s] -- Install configuration: ""
+[4.498s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_msg_interfaces
+[4.499s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces
+[4.499s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg
+[4.499s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.500s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail
+[4.500s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__struct.h
+[4.500s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__type_support.h
+[4.501s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__functions.h
+[4.501s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__functions.c
+[4.501s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/my_parameter.h
+[4.501s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/library_path.sh
+[4.501s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/library_path.dsv
+[4.501s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_generator_c.so
+[4.502s] -- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_generator_c.so" to ""
+[4.502s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces
+[4.502s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg
+[4.503s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.503s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail
+[4.503s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__rosidl_typesupport_fastrtps_c.h
+[4.503s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.503s] -- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.503s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces
+[4.504s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg
+[4.504s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail
+[4.504s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__traits.hpp
+[4.504s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__builder.hpp
+[4.504s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__struct.hpp
+[4.505s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/my_parameter.hpp
+[4.505s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces
+[4.505s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg
+[4.505s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail
+[4.505s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/dds_fastrtps
+[4.505s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__rosidl_typesupport_fastrtps_cpp.hpp
+[4.506s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.506s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.506s] -- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.506s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces
+[4.506s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg
+[4.506s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.507s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail
+[4.507s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__rosidl_typesupport_introspection_c.h
+[4.507s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__type_support.c
+[4.507s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_introspection_c.so
+[4.507s] -- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.507s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_c.so
+[4.508s] -- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_c.so" to ""
+[4.508s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces
+[4.508s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg
+[4.508s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail
+[4.508s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__type_support.cpp
+[4.509s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/include/my_msg_interfaces/my_msg_interfaces/msg/detail/my_parameter__rosidl_typesupport_introspection_cpp.hpp
+[4.509s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.509s] -- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.509s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_cpp.so
+[4.510s] -- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.510s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/pythonpath.sh
+[4.510s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/pythonpath.dsv
+[4.510s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces-0.0.0-py3.10.egg-info
+[4.510s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.511s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.511s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.511s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.511s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces
+[4.511s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.512s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.512s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_c.c
+[4.512s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.512s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.512s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/libmy_msg_interfaces__rosidl_generator_py.so
+[4.513s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/_my_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.513s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/__init__.py
+[4.513s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg
+[4.513s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg/_my_parameter_s.c
+[4.513s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg/__init__.py
+[4.513s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg/_my_parameter.py
+[4.550s] Listing '/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces'...
+[4.550s] Compiling '/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/__init__.py'...
+[4.550s] Listing '/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/msg'...
+[4.566s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.566s] -- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.570s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.570s] -- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.570s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.570s] -- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages/my_msg_interfaces/my_msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.571s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_generator_py.so
+[4.573s] -- Set runtime path of "/root/ros2_frws/install/my_msg_interfaces/lib/libmy_msg_interfaces__rosidl_generator_py.so" to ""
+[4.573s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/msg/MyParameter.idl
+[4.573s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/msg/MyParameter.msg
+[4.573s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/ament_index/resource_index/package_run_dependencies/my_msg_interfaces
+[4.573s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/ament_index/resource_index/parent_prefix_path/my_msg_interfaces
+[4.574s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/ament_prefix_path.sh
+[4.574s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/ament_prefix_path.dsv
+[4.574s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/path.sh
+[4.574s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/environment/path.dsv
+[4.577s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/local_setup.bash
+[4.577s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/local_setup.sh
+[4.577s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/local_setup.zsh
+[4.578s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/local_setup.dsv
+[4.578s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.dsv
+[4.578s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/ament_index/resource_index/packages/my_msg_interfaces
+[4.578s] -- Old export file "/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[4.579s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_cExport.cmake
+[4.579s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.579s] -- Old export file "/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[4.580s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.580s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.580s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_cppExport.cmake
+[4.580s] -- Old export file "/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[4.581s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.581s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.581s] -- Old export file "/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[4.581s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.582s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.588s] -- Old export file "/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[4.588s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cExport.cmake
+[4.588s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.589s] -- Old export file "/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[4.589s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.589s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.590s] -- Old export file "/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[4.590s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cppExport.cmake
+[4.590s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.591s] -- Old export file "/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake].
+[4.591s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_pyExport.cmake
+[4.591s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/export_my_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.592s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.593s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.593s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.593s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.594s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.594s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.594s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.594s] -- Installing: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfacesConfig.cmake
+[4.594s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/cmake/my_msg_interfacesConfig-version.cmake
+[4.594s] -- Up-to-date: /root/ros2_frws/install/my_msg_interfaces/share/my_msg_interfaces/package.xml
+[4.912s] Invoked command in '/root/ros2_frws/build/my_msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/my_msg_interfaces

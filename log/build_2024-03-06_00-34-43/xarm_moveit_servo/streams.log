@@ -1,0 +1,105 @@
+[0.119s] Invoking command in '/root/ros2_frws/build/xarm_moveit_servo': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_frws/src/xarm_ros2/xarm_moveit_servo -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/xarm_moveit_servo
+[0.168s] -- The C compiler identification is GNU 11.4.0
+[0.219s] -- The CXX compiler identification is GNU 11.4.0
+[0.226s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.303s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.307s] -- Detecting CXX compiler ABI info
+[0.378s] -- Detecting CXX compiler ABI info - done
+[0.385s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.385s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.764s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.900s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.967s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.978s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.995s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.017s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.043s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.130s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.136s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.249s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.282s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.362s] -- Looking for pthread.h
+[1.429s] -- Looking for pthread.h - found
+[1.429s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.497s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.498s] -- Found Threads: TRUE  
+[1.667s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.775s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.808s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.932s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.307s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[2.831s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[2.889s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.344s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.367s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.398s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.459s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.565s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.747s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.747s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.367s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.509s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.510s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.510s] -- Configured cppcheck include dirs: /root/ros2_frws/src/xarm_ros2/xarm_moveit_servo/include
+[4.510s] -- Configured cppcheck exclude dirs and/or files: 
+[4.512s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.512s] -- Configured cpplint exclude dirs and/or files: 
+[4.512s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.513s] -- Added test 'lint_cmake' to check CMake code style
+[4.514s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.515s] -- Added test 'uncrustify' to check C / C++ code style
+[4.515s] -- Configured uncrustify additional arguments: 
+[4.516s] -- Added test 'xmllint' to check XML markup files
+[4.519s] -- Configuring done
+[4.571s] -- Generating done
+[4.573s] -- Build files have been written to: /root/ros2_frws/build/xarm_moveit_servo
+[4.592s] Invoked command in '/root/ros2_frws/build/xarm_moveit_servo' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_frws/src/xarm_ros2/xarm_moveit_servo -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/xarm_moveit_servo
+[4.594s] Invoking command in '/root/ros2_frws/build/xarm_moveit_servo': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_frws/build/xarm_moveit_servo -- -j16 -l16
+[4.645s] [ 25%] [32mBuilding CXX object CMakeFiles/xarm_joystick_input.dir/src/xarm_joystick_input.cpp.o[0m
+[4.645s] [ 50%] [32mBuilding CXX object CMakeFiles/xarm_keyboard_input.dir/src/xarm_keyboard_input.cpp.o[0m
+[12.625s] [ 75%] [32m[1mLinking CXX executable xarm_keyboard_input[0m
+[13.117s] [ 75%] Built target xarm_keyboard_input
+[16.748s] [100%] [32m[1mLinking CXX shared library libxarm_joystick_input.so[0m
+[17.583s] [100%] Built target xarm_joystick_input
+[17.597s] Invoked command in '/root/ros2_frws/build/xarm_moveit_servo' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_frws/build/xarm_moveit_servo -- -j16 -l16
+[17.626s] Invoking command in '/root/ros2_frws/build/xarm_moveit_servo': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_frws/build/xarm_moveit_servo
+[17.638s] -- Install configuration: ""
+[17.640s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/lib/libxarm_joystick_input.so
+[17.658s] -- Set runtime path of "/root/ros2_frws/install/xarm_moveit_servo/lib/libxarm_joystick_input.so" to ""
+[17.660s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/lib/xarm_moveit_servo/xarm_keyboard_input
+[17.664s] -- Set runtime path of "/root/ros2_frws/install/xarm_moveit_servo/lib/xarm_moveit_servo/xarm_keyboard_input" to ""
+[17.664s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//config
+[17.672s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//config/xarm_moveit_servo_config.yaml
+[17.673s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch
+[17.673s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/lite6_moveit_servo_realmove.launch.py
+[17.674s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/uf850_moveit_servo_realmove.launch.py
+[17.674s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/xarm_moveit_servo_fake.launch.py
+[17.675s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/_robot_moveit_servo.launch.py
+[17.676s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/lite6_moveit_servo_fake.launch.py
+[17.676s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/xarm_moveit_servo_realmove.launch.py
+[17.676s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/uf850_moveit_servo_fake.launch.py
+[17.676s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//rviz
+[17.676s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo//rviz/servo.rviz
+[17.678s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/ament_index/resource_index/package_run_dependencies/xarm_moveit_servo
+[17.679s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/ament_index/resource_index/parent_prefix_path/xarm_moveit_servo
+[17.680s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/ament_prefix_path.sh
+[17.680s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/ament_prefix_path.dsv
+[17.681s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/path.sh
+[17.681s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/path.dsv
+[17.681s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.bash
+[17.681s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.sh
+[17.682s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.zsh
+[17.682s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.dsv
+[17.682s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/package.dsv
+[17.683s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/ament_index/resource_index/packages/xarm_moveit_servo
+[17.684s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/ament_index/resource_index/rclcpp_components/xarm_moveit_servo
+[17.685s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/cmake/xarm_moveit_servoConfig.cmake
+[17.685s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/cmake/xarm_moveit_servoConfig-version.cmake
+[17.685s] -- Installing: /root/ros2_frws/install/xarm_moveit_servo/share/xarm_moveit_servo/package.xml
+[17.689s] Invoked command in '/root/ros2_frws/build/xarm_moveit_servo' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_frws/build/xarm_moveit_servo

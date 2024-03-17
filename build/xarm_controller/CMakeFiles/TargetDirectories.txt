@@ -1,0 +1,10 @@
+/root/ros2_frws/build/xarm_controller/CMakeFiles/uninstall.dir
+/root/ros2_frws/build/xarm_controller/CMakeFiles/xarm_controller_uninstall.dir
+/root/ros2_frws/build/xarm_controller/CMakeFiles/uf_robot_hardware.dir
+/root/ros2_frws/build/xarm_controller/CMakeFiles/test.dir
+/root/ros2_frws/build/xarm_controller/CMakeFiles/edit_cache.dir
+/root/ros2_frws/build/xarm_controller/CMakeFiles/rebuild_cache.dir
+/root/ros2_frws/build/xarm_controller/CMakeFiles/list_install_components.dir
+/root/ros2_frws/build/xarm_controller/CMakeFiles/install.dir
+/root/ros2_frws/build/xarm_controller/CMakeFiles/install/local.dir
+/root/ros2_frws/build/xarm_controller/CMakeFiles/install/strip.dir

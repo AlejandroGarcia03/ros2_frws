@@ -1,0 +1,7 @@
+[31mCMake Error at cmake_install.cmake:317 (file):
+  file INSTALL cannot copy file
+  "/root/ros2_frws/build/xarm_planner/ament_cmake_environment_hooks/package.dsv"
+  to "/root/ros2_frws/install/xarm_planner/share/xarm_planner/package.dsv":
+  No such file or directory.
+
+[0m

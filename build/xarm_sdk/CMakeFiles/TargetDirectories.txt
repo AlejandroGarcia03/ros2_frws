@@ -1,0 +1,10 @@
+/root/ros2_frws/build/xarm_sdk/CMakeFiles/uninstall.dir
+/root/ros2_frws/build/xarm_sdk/CMakeFiles/xarm_sdk_uninstall.dir
+/root/ros2_frws/build/xarm_sdk/CMakeFiles/xarm_cxx_sdk.dir
+/root/ros2_frws/build/xarm_sdk/CMakeFiles/test.dir
+/root/ros2_frws/build/xarm_sdk/CMakeFiles/edit_cache.dir
+/root/ros2_frws/build/xarm_sdk/CMakeFiles/rebuild_cache.dir
+/root/ros2_frws/build/xarm_sdk/CMakeFiles/list_install_components.dir
+/root/ros2_frws/build/xarm_sdk/CMakeFiles/install.dir
+/root/ros2_frws/build/xarm_sdk/CMakeFiles/install/local.dir
+/root/ros2_frws/build/xarm_sdk/CMakeFiles/install/strip.dir

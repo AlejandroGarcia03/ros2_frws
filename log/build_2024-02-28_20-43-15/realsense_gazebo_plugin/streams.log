@@ -1,0 +1,5 @@
+[1.650s] Invoking command in '/root/ros2_frws/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/realsense_gazebo_plugin -- -j16 -l16
+[1.767s] gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libignition-math6.so.6.15.0', needed by 'librealsense_gazebo_plugin.so'.  Stop.
+[1.767s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/realsense_gazebo_plugin.dir/all] Error 2
+[1.767s] gmake: *** [Makefile:146: all] Error 2
+[1.836s] Invoked command in '/root/ros2_frws/build/realsense_gazebo_plugin' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/realsense_gazebo_plugin -- -j16 -l16

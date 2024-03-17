@@ -1,0 +1,35 @@
+[1.363s] Invoking command in '/root/ros2_frws/src/challenge_2': CMAKE_PREFIX_PATH=/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/realsense_gazebo_plugin LD_LIBRARY_PATH=/root/ros2_frws/install/my_msg_interfaces/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_frws/build/challenge_2/prefix_override:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge_2 build --build-base /root/ros2_frws/build/challenge_2/build install --record /root/ros2_frws/build/challenge_2/install.log --single-version-externally-managed
+[1.673s] running egg_info
+[1.693s] writing ../../build/challenge_2/challenge_2.egg-info/PKG-INFO
+[1.693s] writing dependency_links to ../../build/challenge_2/challenge_2.egg-info/dependency_links.txt
+[1.693s] writing entry points to ../../build/challenge_2/challenge_2.egg-info/entry_points.txt
+[1.694s] writing requirements to ../../build/challenge_2/challenge_2.egg-info/requires.txt
+[1.694s] writing top-level names to ../../build/challenge_2/challenge_2.egg-info/top_level.txt
+[1.732s] reading manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[1.733s] adding license file 'LICENSE'
+[1.735s] writing manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[1.735s] running build
+[1.735s] running build_py
+[1.735s] running install
+[1.736s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.736s] !!
+[1.736s] 
+[1.736s]         ********************************************************************************
+[1.736s]         Please avoid running ``setup.py`` directly.
+[1.736s]         Instead, use pypa/build, pypa/installer or other
+[1.736s]         standards-based tools.
+[1.736s] 
+[1.736s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.736s]         ********************************************************************************
+[1.736s] 
+[1.736s] !!
+[1.736s]   self.initialize_options()
+[1.743s] running install_lib
+[1.760s] running install_data
+[1.778s] running install_egg_info
+[1.795s] removing '/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.795s] Copying ../../build/challenge_2/challenge_2.egg-info to /root/ros2_frws/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info
+[1.798s] running install_scripts
+[1.957s] Installing signal_generator script to /root/ros2_frws/install/challenge_2/lib/challenge_2
+[1.958s] writing list of installed files to '/root/ros2_frws/build/challenge_2/install.log'
+[2.003s] Invoked command in '/root/ros2_frws/src/challenge_2' returned '0': CMAKE_PREFIX_PATH=/root/ros2_frws/install/my_msg_interfaces:/root/ros2_frws/install/xarm_planner:/root/ros2_frws/install/xarm_moveit_servo:/root/ros2_frws/install/xarm_moveit_config:/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/root/ros2_frws/install/realsense_gazebo_plugin LD_LIBRARY_PATH=/root/ros2_frws/install/my_msg_interfaces/lib:/root/ros2_frws/install/xarm_planner/lib:/root/ros2_frws/install/xarm_moveit_servo/lib:/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:/root/ros2_frws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_frws/build/challenge_2/prefix_override:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge_2 build --build-base /root/ros2_frws/build/challenge_2/build install --record /root/ros2_frws/build/challenge_2/install.log --single-version-externally-managed

@@ -1,0 +1,19 @@
+[  9%] Built target test_lite_gripper_realmove
+[ 18%] Built target test_xarm_planner_client_pose
+[ 27%] Built target test_xarm_planner_client_joint
+[ 36%] Built target xarm_planner
+[ 45%] Built target test_xarm_gripper_planner_client_joint
+[ 59%] Built target test_xarm_planner_api_joint
+[ 63%] Built target xarm_gripper_planner_node
+[ 72%] Built target test_dual_xarm_planner_api_joint
+[ 90%] Built target test_xarm_gripper_planner_api_joint
+[ 86%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m
+[ 95%] Built target xarm_planner_node
+[01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:56:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ksin[m[K’
+   56 |             posy=(radius * sin(theta) * sin(phi))[01;31m[Ks[m[K[32m[Kin[m[K(theta);
+      |                                                  [01;31m[K^[m[K[32m[K~~[m[K
+      |                                                  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/test_xarm_planner_api_pose.dir/build.make:76: CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/test_xarm_planner_api_pose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

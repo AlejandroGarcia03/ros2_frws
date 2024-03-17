@@ -1,0 +1,39 @@
+[ 18%] Built target test_xarm_planner_client_joint
+[ 18%] Built target test_xarm_gripper_planner_client_joint
+[ 36%] Built target test_lite_gripper_realmove
+[ 36%] Built target test_xarm_planner_client_pose
+[ 45%] Built target xarm_planner
+[35m[1mConsolidate compiler generated dependencies of target test_xarm_planner_api_pose[0m
+[ 81%] Built target xarm_gripper_planner_node
+[ 81%] Built target xarm_planner_node
+[ 81%] Built target test_xarm_planner_api_joint
+[ 81%] Built target test_dual_xarm_planner_api_joint
+[ 90%] Built target test_xarm_gripper_planner_api_joint
+[ 95%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/include/xarm_planner/xarm_planner.h:12[m[K,
+                 from [01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:8[m[K:
+[01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:95:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+   95 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "test_xarm_planner_api_pose over");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:95:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+   95 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "test_xarm_planner_api_pose over");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:96:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+   96 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/root/ros2_frws/src/xarm_ros2/xarm_planner/test/test_xarm_planner_api_pose.cpp:98:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   98 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/test_xarm_planner_api_pose.dir/build.make:76: CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/test_xarm_planner_api_pose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

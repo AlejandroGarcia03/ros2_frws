@@ -1,0 +1,157 @@
+[0.075s] Invoking command in '/root/ros2_frws/build/xarm_moveit_config': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_frws/src/xarm_ros2/xarm_moveit_config -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/xarm_moveit_config
+[0.136s] -- The C compiler identification is GNU 11.4.0
+[0.195s] -- The CXX compiler identification is GNU 11.4.0
+[0.201s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.276s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.280s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.355s] -- Detecting CXX compile features
+[0.355s] -- Detecting CXX compile features - done
+[0.361s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.712s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.852s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.971s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.979s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.981s] -- Added test 'lint_cmake' to check CMake code style
+[0.982s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.991s] -- Added test 'xmllint' to check XML markup files
+[0.993s] -- Configuring done
+[1.000s] -- Generating done
+[1.001s] -- Build files have been written to: /root/ros2_frws/build/xarm_moveit_config
+[1.008s] Invoked command in '/root/ros2_frws/build/xarm_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_frws/src/xarm_ros2/xarm_moveit_config -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/xarm_moveit_config
+[1.011s] Invoking command in '/root/ros2_frws/build/xarm_moveit_config': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_frws/build/xarm_moveit_config -- -j16 -l16
+[1.047s] Invoked command in '/root/ros2_frws/build/xarm_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_frws/build/xarm_moveit_config -- -j16 -l16
+[1.068s] Invoking command in '/root/ros2_frws/build/xarm_moveit_config': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_frws/build/xarm_moveit_config
+[1.074s] -- Install configuration: ""
+[1.074s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config
+[1.076s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/lite6
+[1.076s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/lite6/kinematics.yaml
+[1.077s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/lite6/joint_limits.yaml
+[1.077s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/lite6/fake_controllers.yaml
+[1.078s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/lite6/controllers.yaml
+[1.078s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/lite6/ompl_planning.yaml
+[1.078s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7_mirror
+[1.078s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7_mirror/kinematics.yaml
+[1.079s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7_mirror/joint_limits.yaml
+[1.079s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7_mirror/fake_controllers.yaml
+[1.079s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7_mirror/controllers.yaml
+[1.080s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7_mirror/ompl_planning.yaml
+[1.080s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7_mirror_gripper
+[1.080s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7_mirror_gripper/joint_limits.yaml
+[1.081s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7_mirror_gripper/fake_controllers.yaml
+[1.081s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7_mirror_gripper/controllers.yaml
+[1.081s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7_mirror_gripper/ompl_planning.yaml
+[1.082s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7
+[1.082s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7/kinematics.yaml
+[1.082s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7/joint_limits.yaml
+[1.083s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7/fake_controllers.yaml
+[1.083s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7/controllers.yaml
+[1.083s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm7/ompl_planning.yaml
+[1.084s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm5
+[1.084s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm5/kinematics.yaml
+[1.084s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm5/joint_limits.yaml
+[1.085s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm5/fake_controllers.yaml
+[1.085s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm5/controllers.yaml
+[1.085s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm5/ompl_planning.yaml
+[1.086s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/uf850
+[1.086s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/uf850/kinematics.yaml
+[1.086s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/uf850/joint_limits.yaml
+[1.087s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/uf850/fake_controllers.yaml
+[1.087s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/uf850/controllers.yaml
+[1.088s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/uf850/ompl_planning.yaml
+[1.088s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/uf850_gripper
+[1.088s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/uf850_gripper/joint_limits.yaml
+[1.088s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/uf850_gripper/fake_controllers.yaml
+[1.089s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/uf850_gripper/controllers.yaml
+[1.089s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/uf850_gripper/ompl_planning.yaml
+[1.089s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm6
+[1.090s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm6/kinematics.yaml
+[1.090s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm6/joint_limits.yaml
+[1.090s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm6/fake_controllers.yaml
+[1.091s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm6/controllers.yaml
+[1.091s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm6/ompl_planning.yaml
+[1.092s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/bio_gripper
+[1.092s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/bio_gripper/joint_limits.yaml
+[1.092s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/bio_gripper/fake_controllers.yaml
+[1.093s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/bio_gripper/controllers.yaml
+[1.093s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/bio_gripper/ompl_planning.yaml
+[1.094s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm_gripper
+[1.094s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm_gripper/joint_limits.yaml
+[1.094s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm_gripper/fake_controllers.yaml
+[1.095s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm_gripper/controllers.yaml
+[1.095s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//config/xarm_gripper/ompl_planning.yaml
+[1.096s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//rviz
+[1.096s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//rviz/moveit.rviz
+[1.096s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//rviz/dual_planner.rviz
+[1.097s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//rviz/planner.rviz
+[1.097s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//rviz/dual_moveit.rviz
+[1.098s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//srdf
+[1.098s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//srdf/_uf850_macro.srdf.xacro
+[1.098s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//srdf/_xarm7_mirror_macro.srdf.xacro
+[1.099s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//srdf/_xarm6_macro.srdf.xacro
+[1.099s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//srdf/xarm.srdf.xacro
+[1.100s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//srdf/_xarm5_macro.srdf.xacro
+[1.100s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//srdf/xarm_macro.srdf.xacro
+[1.101s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//srdf/_lite6_macro.srdf.xacro
+[1.101s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//srdf/dual_xarm.srdf.xacro
+[1.102s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//srdf/_xarm7_macro.srdf.xacro
+[1.103s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch
+[1.103s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/dual_xarm5_moveit_realmove.launch.py
+[1.103s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/_robot_moveit_ignition.launch.py
+[1.104s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/dual_lite6_moveit_realmove.launch.py
+[1.104s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/dual_uf850_moveit_fake.launch.py
+[1.104s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/_dual_robot_moveit_common.launch.py
+[1.104s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm6_moveit_fake.launch.py
+[1.104s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/_robot_moveit_fake.launch.py
+[1.104s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm5_moveit_realmove.launch.py
+[1.105s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/uf850_moveit_realmove.launch.py
+[1.105s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/lite6_moveit_realmove.launch.py
+[1.105s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/lite6_moveit_fake.launch.py
+[1.105s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/_robot_moveit_realmove.launch.py
+[1.105s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm7_moveit_gazebo.launch.py
+[1.105s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm7_mirror_moveit_gazebo.launch.py
+[1.106s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/dual_xarm7_moveit_realmove.launch.py
+[1.106s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm7_mirror_moveit_realmove.launch.py
+[1.106s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/dual_uf850_moveit_realmove.launch.py
+[1.106s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/lib
+[1.107s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/lib/robot_moveit_config_lib.py
+[1.107s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm7_mirror_moveit_fake.launch.py
+[1.107s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm7_moveit_realmove.launch.py
+[1.107s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm7_moveit_fake.launch.py
+[1.107s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm6_moveit_gazebo.launch.py
+[1.107s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/_robot_moveit_common.launch.py
+[1.108s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/_dual_robot_moveit_fake.launch.py
+[1.108s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/_dual_robot_moveit_gazebo.launch.py
+[1.108s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/dual_lite6_moveit_fake.launch.py
+[1.108s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm6_moveit_realmove.launch.py
+[1.108s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/uf850_moveit_gazebo.launch.py
+[1.108s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm5_moveit_gazebo.launch.py
+[1.109s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/uf850_moveit_fake.launch.py
+[1.109s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/dual_xarm6_moveit_fake.launch.py
+[1.109s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/xarm5_moveit_fake.launch.py
+[1.109s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/_dual_robot_moveit_realmove.launch.py
+[1.109s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/dual_xarm7_moveit_fake.launch.py
+[1.109s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/_robot_moveit_gazebo.launch.py
+[1.109s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/dual_xarm6_moveit_realmove.launch.py
+[1.109s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/dual_xarm5_moveit_fake.launch.py
+[1.110s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config//launch/lite6_moveit_gazebo.launch.py
+[1.111s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/ament_index/resource_index/package_run_dependencies/xarm_moveit_config
+[1.111s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/ament_index/resource_index/parent_prefix_path/xarm_moveit_config
+[1.112s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/environment/ament_prefix_path.sh
+[1.112s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/environment/ament_prefix_path.dsv
+[1.112s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/environment/path.sh
+[1.112s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/environment/path.dsv
+[1.113s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/local_setup.bash
+[1.113s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/local_setup.sh
+[1.113s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/local_setup.zsh
+[1.113s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/local_setup.dsv
+[1.113s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/package.dsv
+[1.114s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/ament_index/resource_index/packages/xarm_moveit_config
+[1.114s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/cmake/xarm_moveit_configConfig.cmake
+[1.114s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/cmake/xarm_moveit_configConfig-version.cmake
+[1.114s] -- Installing: /root/ros2_frws/install/xarm_moveit_config/share/xarm_moveit_config/package.xml
+[1.118s] Invoked command in '/root/ros2_frws/build/xarm_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/xarm_gazebo:/root/ros2_frws/install/xarm_controller:/root/ros2_frws/install/xarm_api:/root/ros2_frws/install/xarm_sdk:/root/ros2_frws/install/xarm_msgs:/root/ros2_frws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_frws/install/xarm_gazebo/lib:/root/ros2_frws/install/xarm_controller/lib:/root/ros2_frws/install/xarm_api/lib:/root/ros2_frws/install/xarm_sdk/lib:/root/ros2_frws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_frws/build/xarm_moveit_config

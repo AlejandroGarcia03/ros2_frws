@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000970] (basic_comms) JobQueued: {'identifier': 'basic_comms', 'dependencies': OrderedDict()}
+[0.001374] (course_works) JobQueued: {'identifier': 'course_works', 'dependencies': OrderedDict()}
+[0.001421] (basic_comms) JobStarted: {'identifier': 'basic_comms'}
+[0.060894] (course_works) JobStarted: {'identifier': 'course_works'}
+[0.098781] (-) TimerEvent: {}
+[0.199355] (-) TimerEvent: {}
+[0.300467] (-) TimerEvent: {}
+[0.401287] (-) TimerEvent: {}
+[0.501868] (-) TimerEvent: {}
+[0.602492] (-) TimerEvent: {}
+[0.703141] (-) TimerEvent: {}
+[0.803777] (-) TimerEvent: {}
+[0.904338] (-) TimerEvent: {}
+[1.004855] (-) TimerEvent: {}
+[1.105299] (-) TimerEvent: {}
+[1.205903] (-) TimerEvent: {}
+[1.260263] (course_works) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/course_works', 'build', '--build-base', '/root/ros2_frws/build/course_works/build', 'install', '--record', '/root/ros2_frws/build/course_works/install.log', '--single-version-externally-managed'], 'cwd': '/root/ros2_frws/src/course_works', 'env': {'HOSTNAME': '77473671da6f', 'GIT_ASKPASS': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.86.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-ecce93c1-a261-4134-9185-0a7bd5fca931.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'DEBUGINFOD_URLS': '', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-0a16764c-5302-4fcc-a569-9dc85400fb84.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '0', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-68a4ecdcc3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/ros2_frws/build/course_works', 'LC_ALL': 'C.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ros2_frws/build/course_works/prefix_override:/root/ros2_frws/install/course_works/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.277744] (basic_comms) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/basic_comms', 'build', '--build-base', '/root/ros2_frws/build/basic_comms/build', 'install', '--record', '/root/ros2_frws/build/basic_comms/install.log', '--single-version-externally-managed'], 'cwd': '/root/ros2_frws/src/basic_comms', 'env': {'HOSTNAME': '77473671da6f', 'GIT_ASKPASS': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.86.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-ecce93c1-a261-4134-9185-0a7bd5fca931.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'DEBUGINFOD_URLS': '', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-0a16764c-5302-4fcc-a569-9dc85400fb84.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '0', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-68a4ecdcc3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/ros2_frws/build/basic_comms', 'LC_ALL': 'C.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ros2_frws/build/basic_comms/prefix_override:/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.306071] (-) TimerEvent: {}
+[1.406666] (-) TimerEvent: {}
+[1.480519] (course_works) StdoutLine: {'line': b'running egg_info\n'}
+[1.491494] (basic_comms) StdoutLine: {'line': b'running egg_info\n'}
+[1.496056] (course_works) StdoutLine: {'line': b'writing ../../build/course_works/course_works.egg-info/PKG-INFO\n'}
+[1.496657] (course_works) StdoutLine: {'line': b'writing dependency_links to ../../build/course_works/course_works.egg-info/dependency_links.txt\n'}
+[1.496954] (course_works) StdoutLine: {'line': b'writing entry points to ../../build/course_works/course_works.egg-info/entry_points.txt\n'}
+[1.497243] (course_works) StdoutLine: {'line': b'writing requirements to ../../build/course_works/course_works.egg-info/requires.txt\n'}
+[1.498984] (course_works) StdoutLine: {'line': b'writing top-level names to ../../build/course_works/course_works.egg-info/top_level.txt\n'}
+[1.506777] (-) TimerEvent: {}
+[1.511058] (basic_comms) StdoutLine: {'line': b'writing ../../build/basic_comms/basic_comms.egg-info/PKG-INFO\n'}
+[1.511693] (basic_comms) StdoutLine: {'line': b'writing dependency_links to ../../build/basic_comms/basic_comms.egg-info/dependency_links.txt\n'}
+[1.512061] (basic_comms) StdoutLine: {'line': b'writing entry points to ../../build/basic_comms/basic_comms.egg-info/entry_points.txt\n'}
+[1.512233] (basic_comms) StdoutLine: {'line': b'writing requirements to ../../build/basic_comms/basic_comms.egg-info/requires.txt\n'}
+[1.512480] (basic_comms) StdoutLine: {'line': b'writing top-level names to ../../build/basic_comms/basic_comms.egg-info/top_level.txt\n'}
+[1.533169] (course_works) StdoutLine: {'line': b"reading manifest file '../../build/course_works/course_works.egg-info/SOURCES.txt'\n"}
+[1.533740] (course_works) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.534602] (course_works) StdoutLine: {'line': b"writing manifest file '../../build/course_works/course_works.egg-info/SOURCES.txt'\n"}
+[1.535211] (course_works) StdoutLine: {'line': b'running build\n'}
+[1.535435] (course_works) StdoutLine: {'line': b'running build_py\n'}
+[1.535785] (course_works) StdoutLine: {'line': b'running install\n'}
+[1.536158] (course_works) StderrLine: {'line': b'/root/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.536317] (course_works) StderrLine: {'line': b'!!\n'}
+[1.536407] (course_works) StderrLine: {'line': b'\n'}
+[1.536481] (course_works) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.536542] (course_works) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.536600] (course_works) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.536659] (course_works) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.536719] (course_works) StderrLine: {'line': b'\n'}
+[1.536780] (course_works) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.536846] (course_works) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.536910] (course_works) StderrLine: {'line': b'\n'}
+[1.536973] (course_works) StderrLine: {'line': b'!!\n'}
+[1.537041] (course_works) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.543086] (course_works) StdoutLine: {'line': b'running install_lib\n'}
+[1.544409] (basic_comms) StdoutLine: {'line': b"reading manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'\n"}
+[1.545268] (basic_comms) StdoutLine: {'line': b"writing manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'\n"}
+[1.545563] (basic_comms) StdoutLine: {'line': b'running build\n'}
+[1.545662] (basic_comms) StdoutLine: {'line': b'running build_py\n'}
+[1.545907] (basic_comms) StdoutLine: {'line': b'running install\n'}
+[1.546287] (basic_comms) StderrLine: {'line': b'/root/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.546403] (basic_comms) StderrLine: {'line': b'!!\n'}
+[1.546476] (basic_comms) StderrLine: {'line': b'\n'}
+[1.546540] (basic_comms) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.546605] (basic_comms) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.546668] (basic_comms) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.546731] (basic_comms) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.546792] (basic_comms) StderrLine: {'line': b'\n'}
+[1.546853] (basic_comms) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.546915] (basic_comms) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.546976] (basic_comms) StderrLine: {'line': b'\n'}
+[1.547037] (basic_comms) StderrLine: {'line': b'!!\n'}
+[1.547097] (basic_comms) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.552420] (basic_comms) StdoutLine: {'line': b'running install_lib\n'}
+[1.557470] (course_works) StdoutLine: {'line': b'running install_data\n'}
+[1.565359] (basic_comms) StdoutLine: {'line': b'running install_data\n'}
+[1.572197] (course_works) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.580022] (basic_comms) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.593009] (course_works) StdoutLine: {'line': b"removing '/root/ros2_frws/install/course_works/lib/python3.10/site-packages/course_works-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.595019] (course_works) StdoutLine: {'line': b'Copying ../../build/course_works/course_works.egg-info to /root/ros2_frws/install/course_works/lib/python3.10/site-packages/course_works-0.0.0-py3.10.egg-info\n'}
+[1.596593] (course_works) StdoutLine: {'line': b'running install_scripts\n'}
+[1.598219] (basic_comms) StdoutLine: {'line': b"removing '/root/ros2_frws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.599209] (basic_comms) StdoutLine: {'line': b'Copying ../../build/basic_comms/basic_comms.egg-info to /root/ros2_frws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info\n'}
+[1.603314] (basic_comms) StdoutLine: {'line': b'running install_scripts\n'}
+[1.606931] (-) TimerEvent: {}
+[1.707333] (-) TimerEvent: {}
+[1.783154] (basic_comms) StdoutLine: {'line': b'Installing subscriber script to /root/ros2_frws/install/basic_comms/lib/basic_comms\n'}
+[1.783575] (basic_comms) StdoutLine: {'line': b'Installing talker script to /root/ros2_frws/install/basic_comms/lib/basic_comms\n'}
+[1.784026] (basic_comms) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_frws/build/basic_comms/install.log'\n"}
+[1.786618] (course_works) StdoutLine: {'line': b'Installing processed_signal script to /root/ros2_frws/install/course_works/lib/course_works\n'}
+[1.786984] (course_works) StdoutLine: {'line': b'Installing signal_generator script to /root/ros2_frws/install/course_works/lib/course_works\n'}
+[1.787589] (course_works) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_frws/build/course_works/install.log'\n"}
+[1.807561] (-) TimerEvent: {}
+[1.842873] (basic_comms) CommandEnded: {'returncode': 0}
+[1.907685] (-) TimerEvent: {}
+[1.908636] (basic_comms) JobEnded: {'identifier': 'basic_comms', 'rc': 0}
+[1.910355] (course_works) CommandEnded: {'returncode': 0}
+[1.969865] (course_works) JobEnded: {'identifier': 'course_works', 'rc': 0}
+[1.971674] (-) EventReactorShutdown: {}

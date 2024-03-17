@@ -1,0 +1,1 @@
+Invoking command in '/root/ros2_frws/build/moveit_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/moveit_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/moveit_msgs

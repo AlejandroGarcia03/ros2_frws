@@ -1,0 +1,24 @@
+[0.654s] Invoking command in '/root/ros2_frws/build/my_msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/my_msg_interfaces -- -j16 -l16
+[2.110s] [  9%] Built target my_msg_interfaces__rosidl_generator_c
+[2.112s] [ 12%] Built target my_msg_interfaces__cpp
+[2.112s] [ 12%] Built target ament_cmake_python_copy_my_msg_interfaces
+[2.112s] [ 22%] Built target my_msg_interfaces__rosidl_typesupport_introspection_c
+[2.112s] [ 32%] Built target my_msg_interfaces__rosidl_typesupport_introspection_cpp
+[2.113s] [ 41%] Built target my_msg_interfaces__rosidl_typesupport_cpp
+[2.113s] [ 51%] Built target my_msg_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.114s] [ 61%] Built target my_msg_interfaces__rosidl_typesupport_fastrtps_c
+[2.116s] [ 70%] Built target my_msg_interfaces__rosidl_typesupport_c
+[2.116s] [ 70%] Built target my_msg_interfaces
+[2.116s] [ 74%] Built target my_msg_interfaces__py
+[2.117s] [ 80%] Built target my_msg_interfaces__rosidl_generator_py
+[2.117s] [ 93%] Built target my_msg_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.117s] [ 93%] Built target my_msg_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.117s] [100%] Built target my_msg_interfaces__rosidl_typesupport_c__pyext
+[2.117s] running egg_info
+[2.117s] writing my_msg_interfaces.egg-info/PKG-INFO
+[2.117s] writing dependency_links to my_msg_interfaces.egg-info/dependency_links.txt
+[2.117s] writing top-level names to my_msg_interfaces.egg-info/top_level.txt
+[2.117s] reading manifest file 'my_msg_interfaces.egg-info/SOURCES.txt'
+[2.117s] writing manifest file 'my_msg_interfaces.egg-info/SOURCES.txt'
+[2.117s] [100%] Built target ament_cmake_python_build_my_msg_interfaces_egg
+[2.125s] Invoked command in '/root/ros2_frws/build/my_msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/course_works:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/my_msg_interfaces -- -j16 -l16

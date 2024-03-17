@@ -1,0 +1,67 @@
+[3.926s] Invoking command in '/root/ros2_frws/src/moveit2/moveit_configs_utils': PYTHONPATH=/root/ros2_frws/build/moveit_configs_utils/prefix_override:/root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /root/ros2_frws/build/moveit_configs_utils/build install --record /root/ros2_frws/build/moveit_configs_utils/install.log --single-version-externally-managed
+[4.629s] running egg_info
+[4.630s] creating ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info
+[4.714s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[4.715s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[4.715s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[4.715s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[4.715s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[4.811s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[4.811s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[4.820s] running build
+[4.820s] running build_py
+[4.821s] creating /root/ros2_frws/build/moveit_configs_utils/build
+[4.822s] creating /root/ros2_frws/build/moveit_configs_utils/build/lib
+[4.822s] creating /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[4.822s] copying moveit_configs_utils/launches.py -> /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[4.822s] copying moveit_configs_utils/__init__.py -> /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[4.830s] copying moveit_configs_utils/launch_utils.py -> /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[4.831s] copying moveit_configs_utils/moveit_configs_builder.py -> /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[4.831s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.831s] !!
+[4.832s] 
+[4.832s]         ********************************************************************************
+[4.832s]         Please avoid running ``setup.py`` directly.
+[4.833s]         Instead, use pypa/build, pypa/installer or other
+[4.833s]         standards-based tools.
+[4.833s] 
+[4.833s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.833s]         ********************************************************************************
+[4.834s] 
+[4.834s] !!
+[4.834s]   self.initialize_options()
+[4.834s] creating /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[4.834s] copying moveit_configs_utils/substitutions/__init__.py -> /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[4.834s] copying moveit_configs_utils/substitutions/xacro.py -> /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[4.834s] running install
+[4.843s] running install_lib
+[4.895s] creating /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[4.895s] copying /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launches.py -> /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[4.895s] creating /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[4.895s] copying /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/__init__.py -> /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[4.895s] copying /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/xacro.py -> /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[4.896s] copying /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils/__init__.py -> /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[4.896s] copying /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launch_utils.py -> /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[4.896s] copying /root/ros2_frws/build/moveit_configs_utils/build/lib/moveit_configs_utils/moveit_configs_builder.py -> /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[4.896s] byte-compiling /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launches.py to launches.cpython-310.pyc
+[4.896s] byte-compiling /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/__init__.py to __init__.cpython-310.pyc
+[4.896s] byte-compiling /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/xacro.py to xacro.cpython-310.pyc
+[4.896s] byte-compiling /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/__init__.py to __init__.cpython-310.pyc
+[4.896s] byte-compiling /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launch_utils.py to launch_utils.cpython-310.pyc
+[4.896s] byte-compiling /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/moveit_configs_builder.py to moveit_configs_builder.cpython-310.pyc
+[4.905s] running install_data
+[4.929s] creating /root/ros2_frws/install/moveit_configs_utils/share/ament_index
+[4.929s] creating /root/ros2_frws/install/moveit_configs_utils/share/ament_index/resource_index
+[4.930s] creating /root/ros2_frws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[4.931s] copying resource/moveit_configs_utils -> /root/ros2_frws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[4.934s] copying package.xml -> /root/ros2_frws/install/moveit_configs_utils/share/moveit_configs_utils
+[4.935s] creating /root/ros2_frws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[4.935s] copying default_configs/chomp_planning.yaml -> /root/ros2_frws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[4.936s] copying default_configs/pilz_industrial_motion_planner_planning.yaml -> /root/ros2_frws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[4.936s] copying default_configs/ompl_defaults.yaml -> /root/ros2_frws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[4.937s] copying default_configs/ompl_planning.yaml -> /root/ros2_frws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[4.937s] running install_egg_info
+[4.970s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.5.5-py3.10.egg-info
+[4.970s] running install_scripts
+[6.719s] writing list of installed files to '/root/ros2_frws/build/moveit_configs_utils/install.log'
+[7.215s] Invoked command in '/root/ros2_frws/src/moveit2/moveit_configs_utils' returned '0': PYTHONPATH=/root/ros2_frws/build/moveit_configs_utils/prefix_override:/root/ros2_frws/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /root/ros2_frws/build/moveit_configs_utils/build install --record /root/ros2_frws/build/moveit_configs_utils/install.log --single-version-externally-managed

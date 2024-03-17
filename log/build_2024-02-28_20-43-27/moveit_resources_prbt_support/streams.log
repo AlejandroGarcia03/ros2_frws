@@ -1,0 +1,50 @@
+[0.683s] Invoking command in '/root/ros2_frws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/moveit_resources_prbt_support
+[1.823s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.823s] -- Configuring done
+[1.823s] -- Generating done
+[1.823s] -- Build files have been written to: /root/ros2_frws/build/moveit_resources_prbt_support
+[1.836s] Invoked command in '/root/ros2_frws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/moveit2/moveit_planners/test_configs/prbt_support -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/moveit_resources_prbt_support
+[1.843s] Invoking command in '/root/ros2_frws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/moveit_resources_prbt_support -- -j16 -l16
+[1.925s] Invoked command in '/root/ros2_frws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/moveit_resources_prbt_support -- -j16 -l16
+[1.963s] Invoking command in '/root/ros2_frws/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/moveit_resources_prbt_support
+[1.975s] -- Install configuration: "Release"
+[1.975s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_support
+[1.975s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_support
+[1.975s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.sh
+[1.975s] -- Installing: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.dsv
+[1.975s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.sh
+[1.975s] -- Installing: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.dsv
+[1.979s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.bash
+[1.979s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.sh
+[1.979s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.zsh
+[1.979s] -- Installing: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.dsv
+[1.979s] -- Installing: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.dsv
+[1.979s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/ament_index/resource_index/packages/moveit_resources_prbt_support
+[1.979s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+[1.979s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+[1.979s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.xml
+[1.979s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf
+[1.979s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.xacro
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.ros2_control.xacro
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt_macro.xacro
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/simple_gripper_brackets.urdf.xacro
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.stl
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.dae
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.dae
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.dae
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.dae
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.dae
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.stl
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.stl
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.stl
+[1.980s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.stl
+[1.981s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.dae
+[1.981s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.stl
+[1.981s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.stl
+[1.981s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.dae
+[1.981s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config
+[1.981s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_driver.yaml
+[1.981s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/prbt_0_1.dcf
+[1.981s] -- Up-to-date: /root/ros2_frws/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_controller.yaml
+[2.064s] Invoked command in '/root/ros2_frws/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/moveit_resources_prbt_support

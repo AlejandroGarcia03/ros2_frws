@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_frws/build/xarm_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/xarm_sdk
+Invoked command in '/root/ros2_frws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/xarm_sdk
+Invoking command in '/root/ros2_frws/build/xarm_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_sdk -- -j16 -l16
+Invoked command in '/root/ros2_frws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/xarm_sdk -- -j16 -l16
+Invoking command in '/root/ros2_frws/build/xarm_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/xarm_sdk
+Invoked command in '/root/ros2_frws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/xarm_sdk

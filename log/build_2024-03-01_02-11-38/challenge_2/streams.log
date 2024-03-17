@@ -1,0 +1,36 @@
+[1.830s] Invoking command in '/root/ros2_frws/src/challenge_2': AMENT_PREFIX_PATH=/root/ros2_frws/install/my_msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/my_msg_interfaces LD_LIBRARY_PATH=/root/ros2_frws/install/my_msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/build/challenge_2/prefix_override:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge_2 build --build-base /root/ros2_frws/build/challenge_2/build install --record /root/ros2_frws/build/challenge_2/install.log --single-version-externally-managed
+[2.187s] running egg_info
+[2.207s] writing ../../build/challenge_2/challenge_2.egg-info/PKG-INFO
+[2.208s] writing dependency_links to ../../build/challenge_2/challenge_2.egg-info/dependency_links.txt
+[2.209s] writing entry points to ../../build/challenge_2/challenge_2.egg-info/entry_points.txt
+[2.210s] writing requirements to ../../build/challenge_2/challenge_2.egg-info/requires.txt
+[2.210s] writing top-level names to ../../build/challenge_2/challenge_2.egg-info/top_level.txt
+[2.265s] reading manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[2.267s] adding license file 'LICENSE'
+[2.268s] /root/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.269s] !!
+[2.269s] 
+[2.269s]         ********************************************************************************
+[2.270s]         Please avoid running ``setup.py`` directly.
+[2.270s]         Instead, use pypa/build, pypa/installer or other
+[2.270s]         standards-based tools.
+[2.271s] 
+[2.271s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.271s]         ********************************************************************************
+[2.271s] 
+[2.272s] !!
+[2.272s]   self.initialize_options()
+[2.272s] writing manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[2.273s] running build
+[2.273s] running build_py
+[2.273s] running install
+[2.278s] running install_lib
+[2.303s] running install_data
+[2.324s] copying package.xml -> /root/ros2_frws/install/challenge_2/share/challenge_2
+[2.324s] running install_egg_info
+[2.352s] removing '/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.353s] Copying ../../build/challenge_2/challenge_2.egg-info to /root/ros2_frws/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info
+[2.355s] running install_scripts
+[2.567s] Installing signal_generator script to /root/ros2_frws/install/challenge_2/lib/challenge_2
+[2.568s] writing list of installed files to '/root/ros2_frws/build/challenge_2/install.log'
+[2.847s] Invoked command in '/root/ros2_frws/src/challenge_2' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/my_msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/my_msg_interfaces LD_LIBRARY_PATH=/root/ros2_frws/install/my_msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_frws/build/challenge_2/prefix_override:/root/ros2_frws/install/challenge_2/lib/python3.10/site-packages:/root/ros2_frws/install/my_msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge_2 build --build-base /root/ros2_frws/build/challenge_2/build install --record /root/ros2_frws/build/challenge_2/install.log --single-version-externally-managed

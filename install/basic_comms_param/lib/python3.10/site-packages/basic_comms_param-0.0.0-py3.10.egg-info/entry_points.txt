@@ -1,0 +1,2 @@
+[console_scripts]
+talker_params = basic_comms_param.talker_params:main

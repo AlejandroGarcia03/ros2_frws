@@ -1,0 +1,56 @@
+[0.247s] Invoking command in '/root/ros2_frws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/moveit_resources/fanuc_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/moveit_resources_fanuc_moveit_config
+[1.697s] -- The C compiler identification is GNU 11.4.0
+[2.281s] -- The CXX compiler identification is GNU 11.4.0
+[2.296s] -- Detecting C compiler ABI info
+[2.687s] -- Detecting C compiler ABI info - done
+[2.695s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.695s] -- Detecting C compile features
+[2.695s] -- Detecting C compile features - done
+[2.699s] -- Detecting CXX compiler ABI info
+[3.103s] -- Detecting CXX compiler ABI info - done
+[3.130s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.135s] -- Detecting CXX compile features
+[3.141s] -- Detecting CXX compile features - done
+[3.163s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.394s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.798s] -- Configuring done
+[4.819s] -- Generating done
+[4.823s] -- Build files have been written to: /root/ros2_frws/build/moveit_resources_fanuc_moveit_config
+[4.843s] Invoked command in '/root/ros2_frws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake /root/ros2_frws/src/moveit_resources/fanuc_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros2_frws/install/moveit_resources_fanuc_moveit_config
+[4.845s] Invoking command in '/root/ros2_frws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/moveit_resources_fanuc_moveit_config -- -j16 -l16
+[4.900s] Invoked command in '/root/ros2_frws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/moveit_resources_fanuc_moveit_config -- -j16 -l16
+[4.942s] Invoking command in '/root/ros2_frws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/moveit_resources_fanuc_moveit_config
+[4.954s] -- Install configuration: "Release"
+[4.956s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_resources_fanuc_moveit_config
+[4.957s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_resources_fanuc_moveit_config
+[4.958s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/ament_prefix_path.sh
+[4.959s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/ament_prefix_path.dsv
+[4.960s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/path.sh
+[4.961s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/path.dsv
+[4.961s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.bash
+[4.961s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.sh
+[4.962s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.zsh
+[4.962s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.dsv
+[4.962s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.dsv
+[4.964s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/packages/moveit_resources_fanuc_moveit_config
+[4.965s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake/moveit_resources_fanuc_moveit_configConfig.cmake
+[4.965s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake/moveit_resources_fanuc_moveit_configConfig-version.cmake
+[4.967s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.xml
+[4.967s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch
+[4.970s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch/moveit.rviz
+[4.970s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch/demo.launch.py
+[4.971s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config
+[4.971s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.srdf
+[4.971s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/ros2_controllers.yaml
+[4.972s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.urdf.xacro
+[4.973s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/kinematics.yaml
+[4.973s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.ros2_control.xacro
+[4.973s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/chomp_planning.yaml
+[4.973s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/joint_limits.yaml
+[4.973s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/initial_positions.yaml
+[4.973s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/moveit_controllers.yaml
+[4.973s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/pilz_cartesian_limits.yaml
+[4.974s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/sensors_3d.yaml
+[4.974s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/ompl_planning.yaml
+[4.974s] -- Installing: /root/ros2_frws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/.setup_assistant
+[4.978s] Invoked command in '/root/ros2_frws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_frws/install/moveit_resources_fanuc_description:/opt/ros/humble /usr/bin/cmake --install /root/ros2_frws/build/moveit_resources_fanuc_moveit_config

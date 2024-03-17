@@ -1,0 +1,19 @@
+[0.069s] Invoking command in '/root/ros2_frws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/tutorial_interfaces -- -j16 -l16
+[0.080s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.213s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.288s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.325s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.352s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.352s]   rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist
+[0.352s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.352s]   '/root/ros2_frws/src/tutorial_interfaces'
+[0.352s] Call Stack (most recent call first):
+[0.352s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[0.352s] 
+[0.352s] [0m
+[0.352s] -- Configuring incomplete, errors occurred!
+[0.353s] See also "/root/ros2_frws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.358s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.360s] Invoked command in '/root/ros2_frws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/tutorial_interfaces -- -j16 -l16

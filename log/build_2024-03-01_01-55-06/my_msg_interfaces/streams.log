@@ -1,0 +1,71 @@
+[0.670s] Invoking command in '/root/ros2_frws/build/my_msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/my_msg_interfaces -- -j16 -l16
+[2.099s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.099s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.100s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.100s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.100s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.100s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.310s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.325s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.325s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.326s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.362s] -- Configuring done
+[2.417s] -- Generating done
+[2.437s] -- Build files have been written to: /root/ros2_frws/build/my_msg_interfaces
+[2.466s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.482s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.498s] [  6%] Built target ament_cmake_python_copy_my_msg_interfaces
+[2.922s] running egg_info
+[2.947s] writing my_msg_interfaces.egg-info/PKG-INFO
+[2.947s] writing dependency_links to my_msg_interfaces.egg-info/dependency_links.txt
+[2.948s] writing top-level names to my_msg_interfaces.egg-info/top_level.txt
+[3.005s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_generator_c[0m
+[3.011s] [  6%] Built target my_msg_interfaces__cpp
+[3.026s] [  9%] [32mBuilding C object CMakeFiles/my_msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_msg_interfaces/msg/detail/my_parameter__functions.c.o[0m
+[3.026s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.027s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.029s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.036s] reading manifest file 'my_msg_interfaces.egg-info/SOURCES.txt'
+[3.038s] writing manifest file 'my_msg_interfaces.egg-info/SOURCES.txt'
+[3.050s] In file included from [01m[K/root/ros2_frws/build/my_msg_interfaces/rosidl_generator_c/my_msg_interfaces/msg/detail/my_parameter__functions.h:19[m[K,
+[3.050s]                  from [01m[K/root/ros2_frws/build/my_msg_interfaces/rosidl_generator_c/my_msg_interfaces/msg/detail/my_parameter__functions.c:4[m[K:
+[3.050s] [01m[K/root/ros2_frws/build/my_msg_interfaces/rosidl_generator_c/my_msg_interfaces/msg/detail/my_parameter__struct.h:28:10:[m[K [01;31m[Kfatal error: [m[Kmy_msg_interfaces/msg/detail/float32__struct.h: No such file or directory
+[3.051s]    28 | #include [01;31m[K"my_msg_interfaces/msg/detail/float32__struct.h"[m[K
+[3.051s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.051s] compilation terminated.
+[3.053s] gmake[2]: *** [CMakeFiles/my_msg_interfaces__rosidl_generator_c.dir/build.make:105: CMakeFiles/my_msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_msg_interfaces/msg/detail/my_parameter__functions.c.o] Error 1
+[3.053s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/my_msg_interfaces__rosidl_generator_c.dir/all] Error 2
+[3.054s] gmake[1]: *** Waiting for unfinished jobs....
+[3.084s] [ 19%] Built target ament_cmake_python_build_my_msg_interfaces_egg
+[3.468s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_cpp[0m
+[3.477s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.488s] [35m[1mConsolidate compiler generated dependencies of target my_msg_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.488s] [ 22%] [32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msg_interfaces/msg/my_parameter__type_support.cpp.o[0m
+[3.499s] [ 25%] [32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msg_interfaces/msg/detail/my_parameter__type_support.cpp.o[0m
+[3.508s] [ 29%] [32mBuilding CXX object CMakeFiles/my_msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msg_interfaces/msg/detail/dds_fastrtps/my_parameter__type_support.cpp.o[0m
+[3.564s] In file included from [01m[K/root/ros2_frws/build/my_msg_interfaces/rosidl_typesupport_cpp/my_msg_interfaces/msg/my_parameter__type_support.cpp:7[m[K:
+[3.565s] [01m[K/root/ros2_frws/build/my_msg_interfaces/rosidl_generator_cpp/my_msg_interfaces/msg/detail/my_parameter__struct.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kmy_msg_interfaces/msg/detail/float32__struct.hpp: No such file or directory
+[3.565s]    24 | #include [01;31m[K"my_msg_interfaces/msg/detail/float32__struct.hpp"[m[K
+[3.565s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.565s] compilation terminated.
+[3.568s] gmake[2]: *** [CMakeFiles/my_msg_interfaces__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/my_msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msg_interfaces/msg/my_parameter__type_support.cpp.o] Error 1
+[3.568s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/my_msg_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[3.572s] In file included from [01m[K/root/ros2_frws/build/my_msg_interfaces/rosidl_typesupport_fastrtps_cpp/my_msg_interfaces/msg/detail/my_parameter__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[3.572s]                  from [01m[K/root/ros2_frws/build/my_msg_interfaces/rosidl_typesupport_fastrtps_cpp/my_msg_interfaces/msg/detail/dds_fastrtps/my_parameter__type_support.cpp:4[m[K:
+[3.572s] [01m[K/root/ros2_frws/build/my_msg_interfaces/rosidl_generator_cpp/my_msg_interfaces/msg/detail/my_parameter__struct.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kmy_msg_interfaces/msg/detail/float32__struct.hpp: No such file or directory
+[3.572s]    24 | #include [01;31m[K"my_msg_interfaces/msg/detail/float32__struct.hpp"[m[K
+[3.572s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.573s] compilation terminated.
+[3.573s] gmake[2]: *** [CMakeFiles/my_msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/my_msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msg_interfaces/msg/detail/dds_fastrtps/my_parameter__type_support.cpp.o] Error 1
+[3.574s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/my_msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[3.592s] In file included from [01m[K/root/ros2_frws/build/my_msg_interfaces/rosidl_typesupport_introspection_cpp/my_msg_interfaces/msg/detail/my_parameter__type_support.cpp:12[m[K:
+[3.592s] [01m[K/root/ros2_frws/build/my_msg_interfaces/rosidl_generator_cpp/my_msg_interfaces/msg/detail/my_parameter__struct.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kmy_msg_interfaces/msg/detail/float32__struct.hpp: No such file or directory
+[3.592s]    24 | #include [01;31m[K"my_msg_interfaces/msg/detail/float32__struct.hpp"[m[K
+[3.592s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.592s] compilation terminated.
+[3.595s] gmake[2]: *** [CMakeFiles/my_msg_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/my_msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msg_interfaces/msg/detail/my_parameter__type_support.cpp.o] Error 1
+[3.595s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/my_msg_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[3.596s] gmake: *** [Makefile:146: all] Error 2
+[3.599s] Invoked command in '/root/ros2_frws/build/my_msg_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_frws/install/moveit_configs_utils:/root/ros2_frws/install/course_works:/root/ros2_frws/install/challenge_2:/root/ros2_frws/install/basic_comms_params:/root/ros2_frws/install/basic_comms_param:/root/ros2_frws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /root/ros2_frws/build/my_msg_interfaces -- -j16 -l16
